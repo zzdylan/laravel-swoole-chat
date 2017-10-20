@@ -39,6 +39,6 @@ class RandomName extends Command
     public function handle()
     {
         $faker = Faker\Factory::create('zh_CN');
-        $this->info($faker->name);
+        $this->info($faker->userName);
     }
 }
