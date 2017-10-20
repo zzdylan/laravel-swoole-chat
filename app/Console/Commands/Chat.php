@@ -62,7 +62,7 @@ class Chat extends Command {
 
 //监听WebSocket连接关闭事件
         $ws->on('close', function ($ws, $fd) {
-            echo "client-{$fd} is closed\n";
+            $this->info("client-{$fd} is closed\n");
         });
         $this->info('server starting at 9502 port...');
 
