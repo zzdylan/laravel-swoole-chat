@@ -11,7 +11,7 @@ class Chat extends Command {
      *
      * @var string
      */
-    protected $signature = 'chat:server';
+    protected $signature = 'chat';
 
     /**
      * The console command description.
@@ -63,6 +63,7 @@ class Chat extends Command {
         $ws->on('close', function ($ws, $fd) {
             echo "client-{$fd} is closed\n";
         });
+        $this->info('server starting at 9502 port...');
 
         $ws->start();   
     }
