@@ -3,6 +3,7 @@
 namespace App\Console\Commands;
 
 use Illuminate\Console\Command;
+use swoole_websocket_server;
 
 class Chat extends Command {
 
