@@ -13,7 +13,7 @@
     <div class="H-chatbox H-padding-vertical-bottom-10">
         <div class="H-padding-vertical-top-10 H-text-align-center H-font-size-12 H-theme-font-color-999">2016-04-19 03:15:15 星期二</div>
         <div class="H-chatbox-receiver H-flexbox-horizontal H-padding-horizontal-both-10 H-box-sizing-border-box H-margin-vertical-top-10">
-            <div class="H-chatbox-img H-position-relative"><img src="../../../image/logo.png" class="H-display-block H-border-radius-circle" alt="" title="" /></div>
+            <div class="H-chatbox-img H-position-relative"><img src="/image/logo.png" class="H-display-block H-border-radius-circle" alt="" title="" /></div>
             <div class="H-chatbox-main H-flex-item H-flexbox-horizontal H-position-relative H-margin-horizontal-left-12">
                 <div class="H-chatbox-content">
                     <div class="H-position-relative">
@@ -34,10 +34,10 @@
                     </div>
                 </div>
             </div>
-            <div class="H-chatbox-img H-position-relative"><img src="../../../image/logo.png" class="H-display-block H-border-radius-circle" alt="" title="" /></div>
+            <div class="H-chatbox-img H-position-relative"><img src="/image/logo.png" class="H-display-block H-border-radius-circle" alt="" title="" /></div>
         </div>
         <div class="H-chatbox-receiver H-flexbox-horizontal H-padding-horizontal-both-10 H-box-sizing-border-box H-margin-vertical-top-10">
-            <div class="H-chatbox-img H-position-relative"><img src="../../../image/logo.png" class="H-display-block H-border-radius-circle" alt="" title="" /></div>
+            <div class="H-chatbox-img H-position-relative"><img src="/image/logo.png" class="H-display-block H-border-radius-circle" alt="" title="" /></div>
             <div class="H-chatbox-main H-flex-item H-flexbox-horizontal H-position-relative H-margin-horizontal-left-12">
                 <div class="H-chatbox-content">
                     <div class="H-position-relative">
@@ -58,10 +58,10 @@
                     </div>
                 </div>
             </div>
-            <div class="H-chatbox-img H-position-relative"><img src="../../../image/logo.png" class="H-display-block H-border-radius-circle" alt="" title="" /></div>
+            <div class="H-chatbox-img H-position-relative"><img src="/image/logo.png" class="H-display-block H-border-radius-circle" alt="" title="" /></div>
         </div>
         <div class="H-chatbox-receiver H-flexbox-horizontal H-padding-horizontal-both-10 H-box-sizing-border-box H-margin-vertical-top-10">
-            <div class="H-chatbox-img H-position-relative"><img src="../../../image/logo.png" class="H-display-block H-border-radius-circle" alt="" title="" /></div>
+            <div class="H-chatbox-img H-position-relative"><img src="/image/logo.png" class="H-display-block H-border-radius-circle" alt="" title="" /></div>
             <div class="H-chatbox-main H-flex-item H-flexbox-horizontal H-position-relative H-margin-horizontal-left-12">
                 <div class="H-chatbox-content">
                     <div class="H-position-relative">
@@ -74,7 +74,7 @@
         </div>
         <div class="H-padding-vertical-top-10 H-text-align-center H-font-size-12 H-theme-font-color-999">2016-04-19 03:15:15 星期二</div>
         <div class="H-chatbox-receiver H-flexbox-horizontal H-padding-horizontal-both-10 H-box-sizing-border-box H-margin-vertical-top-10">
-            <div class="H-chatbox-img H-position-relative"><img src="../../../image/logo.png" class="H-display-block H-border-radius-circle" alt="" title="" /></div>
+            <div class="H-chatbox-img H-position-relative"><img src="/image/logo.png" class="H-display-block H-border-radius-circle" alt="" title="" /></div>
             <div class="H-chatbox-main H-flex-item H-flexbox-horizontal H-position-relative H-margin-horizontal-left-12">
                 <div class="H-chatbox-content">
                     <div class="H-position-relative">
@@ -95,10 +95,10 @@
                     </div>
                 </div>
             </div>
-            <div class="H-chatbox-img H-position-relative"><img src="../../../image/logo.png" class="H-display-block H-border-radius-circle" alt="" title="" /></div>
+            <div class="H-chatbox-img H-position-relative"><img src="/image/logo.png" class="H-display-block H-border-radius-circle" alt="" title="" /></div>
         </div>
         <div class="H-chatbox-receiver H-flexbox-horizontal H-padding-horizontal-both-10 H-box-sizing-border-box H-margin-vertical-top-10">
-            <div class="H-chatbox-img H-position-relative"><img src="../../../image/logo.png" class="H-display-block H-border-radius-circle" alt="" title="" /></div>
+            <div class="H-chatbox-img H-position-relative"><img src="/image/logo.png" class="H-display-block H-border-radius-circle" alt="" title="" /></div>
             <div class="H-chatbox-main H-flex-item H-flexbox-horizontal H-position-relative H-margin-horizontal-left-12">
                 <div class="H-chatbox-content">
                     <div class="H-position-relative">
@@ -119,11 +119,11 @@
                     </div>
                 </div>
             </div>
-            <div class="H-chatbox-img H-position-relative"><img src="../../../image/logo.png" class="H-display-block H-border-radius-circle" alt="" title="" /></div>
+            <div class="H-chatbox-img H-position-relative"><img src="/image/logo.png" class="H-display-block H-border-radius-circle" alt="" title="" /></div>
         </div>
         <div class="H-padding-vertical-top-10 H-text-align-center H-font-size-12 H-theme-font-color-999">2016-04-19 03:15:15 星期二</div>
         <div class="H-chatbox-receiver H-flexbox-horizontal H-padding-horizontal-both-10 H-box-sizing-border-box H-margin-vertical-top-10">
-            <div class="H-chatbox-img H-position-relative"><img src="../../../image/logo.png" class="H-display-block H-border-radius-circle" alt="" title="" /></div>
+            <div class="H-chatbox-img H-position-relative"><img src="/image/logo.png" class="H-display-block H-border-radius-circle" alt="" title="" /></div>
             <div class="H-chatbox-main H-flex-item H-flexbox-horizontal H-position-relative H-margin-horizontal-left-12">
                 <div class="H-chatbox-content">
                     <div class="H-font-size-12 H-theme-font-color-444 H-padding-2"><span class="H-display-inline-block H-padding-horizontal-both-5 H-theme-font-color-white H-theme-background-color6 H-margin-horizontal-right-5 H-line-height-normal H-border-radius-5 H-font-size-12">VIP8</span>Hui官方</div>
@@ -146,7 +146,7 @@
                     </div>
                 </div>
             </div>
-            <div class="H-chatbox-img H-position-relative"><img src="../../../image/logo.png" class="H-display-block H-border-radius-circle" alt="" title="" /></div>
+            <div class="H-chatbox-img H-position-relative"><img src="/image/logo.png" class="H-display-block H-border-radius-circle" alt="" title="" /></div>
         </div>
     </div>
     <script src="{{asset('Hui/js/H.js')}}" type="text/javascript"></script>
