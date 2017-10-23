@@ -34,7 +34,7 @@
                     </div>
                 </div>
             </div>
-            <div class="H-chatbox-img H-position-relative"><img src="/image/logo.png" class="H-display-block H-border-radius-circle" alt="" title="" /></div>
+            <div class="H-chatbox-img H-position-relative"><img src="/images/me.jpg" class="H-display-block H-border-radius-circle" alt="" title="" /></div>
         </div>
         <div class="H-chatbox-receiver H-flexbox-horizontal H-padding-horizontal-both-10 H-box-sizing-border-box H-margin-vertical-top-10">
             <div class="H-chatbox-img H-position-relative"><img src="/image/logo.png" class="H-display-block H-border-radius-circle" alt="" title="" /></div>
@@ -58,7 +58,7 @@
                     </div>
                 </div>
             </div>
-            <div class="H-chatbox-img H-position-relative"><img src="/image/logo.png" class="H-display-block H-border-radius-circle" alt="" title="" /></div>
+            <div class="H-chatbox-img H-position-relative"><img src="/images/me.jpg" class="H-display-block H-border-radius-circle" alt="" title="" /></div>
         </div>
         <div class="H-chatbox-receiver H-flexbox-horizontal H-padding-horizontal-both-10 H-box-sizing-border-box H-margin-vertical-top-10">
             <div class="H-chatbox-img H-position-relative"><img src="/image/logo.png" class="H-display-block H-border-radius-circle" alt="" title="" /></div>
@@ -95,7 +95,7 @@
                     </div>
                 </div>
             </div>
-            <div class="H-chatbox-img H-position-relative"><img src="/image/logo.png" class="H-display-block H-border-radius-circle" alt="" title="" /></div>
+            <div class="H-chatbox-img H-position-relative"><img src="/images/me.jpg" class="H-display-block H-border-radius-circle" alt="" title="" /></div>
         </div>
         <div class="H-chatbox-receiver H-flexbox-horizontal H-padding-horizontal-both-10 H-box-sizing-border-box H-margin-vertical-top-10">
             <div class="H-chatbox-img H-position-relative"><img src="/image/logo.png" class="H-display-block H-border-radius-circle" alt="" title="" /></div>
@@ -119,7 +119,7 @@
                     </div>
                 </div>
             </div>
-            <div class="H-chatbox-img H-position-relative"><img src="/image/logo.png" class="H-display-block H-border-radius-circle" alt="" title="" /></div>
+            <div class="H-chatbox-img H-position-relative"><img src="/images/me.jpg" class="H-display-block H-border-radius-circle" alt="" title="" /></div>
         </div>
         <div class="H-padding-vertical-top-10 H-text-align-center H-font-size-12 H-theme-font-color-999">2016-04-19 03:15:15 星期二</div>
         <div class="H-chatbox-receiver H-flexbox-horizontal H-padding-horizontal-both-10 H-box-sizing-border-box H-margin-vertical-top-10">
@@ -146,7 +146,7 @@
                     </div>
                 </div>
             </div>
-            <div class="H-chatbox-img H-position-relative"><img src="/image/logo.png" class="H-display-block H-border-radius-circle" alt="" title="" /></div>
+            <div class="H-chatbox-img H-position-relative"><img src="/images/me.jpg" class="H-display-block H-border-radius-circle" alt="" title="" /></div>
         </div>
     </div>
     <script src="{{asset('Hui/js/H.js')}}" type="text/javascript"></script>
