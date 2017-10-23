@@ -12,5 +12,6 @@
 */
 
 Route::get('/', function () {
+    return view('chat.chatbox.index');
     return view('welcome');
 });
