@@ -11,7 +11,8 @@
 |
 */
 
-Route::get('/', function () {
-    return view('chat.chatbox.index');
-    return view('welcome');
+Route::get('/test',function(){
+    dd($_SERVER);
 });
+Route::get('/','ChatController@enter');
+Route::get('/chat_room','ChatController@chatRoom');
