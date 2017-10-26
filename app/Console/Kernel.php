@@ -13,8 +13,7 @@ class Kernel extends ConsoleKernel
      * @var array
      */
     protected $commands = [
-        'App\Console\Commands\Chat',
-        'App\Console\Commands\RandomName'
+        'App\Console\Commands\Chat'
     ];
 
     /**

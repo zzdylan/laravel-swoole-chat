@@ -4,6 +4,9 @@ namespace App\Console\Commands;
 
 use Illuminate\Console\Command;
 use swoole_websocket_server;
+use Illuminate\Support\Facades\Cache;
+use App\Models\UsersCopy;
+use Image;
 
 class Chat extends Command {
 
@@ -20,6 +23,7 @@ class Chat extends Command {
      * @var string
      */
     protected $description = 'start chat server';
+    protected $fd = [];
 
     /**
      * Create a new command instance.
@@ -39,34 +43,94 @@ class Chat extends Command {
         //创建websocket服务器对象，监听0.0.0.0:9502端口
         $ws = new swoole_websocket_server("0.0.0.0", 9502);
 
-//监听WebSocket连接打开事件
+        //监听WebSocket连接打开事件
         $ws->on('open', function ($ws, $request) {
-            $fd[] = $request->fd;
-            $GLOBALS['fd'][] = $fd;
-            //$ws->push($request->fd, "hello, welcome\n");
+            $pushData = ['type' => 'get_token'];
+            $ws->push($request->fd, json_encode($pushData));
+            $this->info("client-{$request->fd} is connected\n");
         });
 
-//监听WebSocket消息事件
+        //监听WebSocket消息事件
         $ws->on('message', function ($ws, $frame) {
-            $msg = 'from' . $frame->fd . ":{$frame->data}\n";
-//var_dump($GLOBALS['fd']);
-//exit;
-            foreach ($GLOBALS['fd'] as $aa) {
-                foreach ($aa as $i) {
-                    $ws->push($i, $msg);
+//            if($frame->data == ''){
+//                return false;
+//            }
+            $data = json_decode($frame->data, true);
+            echo "data\n";
+            var_dump($data);
+            if ($data['type'] == 'message') {
+                $userInfo = Cache::get($data['token']);
+                $content = htmlentities($data['content']);
+                echo '(fd:' . $frame->fd . ')' . $userInfo['nickname'] . ':' . $frame->data . "\n";
+                $pushData = ['type' => 'message', 'nickname' => $userInfo['nickname'], 'avatar' => $userInfo['avatar'], 'msg' => $content];
+                foreach ($ws->connections as $i) {
+                    if ($i == $frame->fd) {
+                        $pushData['is_own'] = 1;
+                    } else {
+                        $pushData['is_own'] = 0;
+                    }
+                    $ws->push($i, json_encode($pushData));
+                }
+            } else if ($data['type'] == 'send_token') {
+                if (!$data['token']) {
+                    $token = uniqid('user_');
+                    $pushData ['type'] = 'refresh_token';
+                    $pushData ['token'] = $token;
+                    $userInfo = Cache::rememberForever($token, function() {
+                                $randomUser = UsersCopy::
+                                        inRandomOrder()
+                                        ->first();
+                                //dd($randomUser);
+                                //$avatar = file_get_contents($randomUser->avatar);
+                                $pathinfo = pathinfo($randomUser->avatar);
+                                $extension = isset($pathinfo['extension']) ? $pathinfo['extension'] : 'png';
+                                $fileName = md5_file($randomUser->avatar) . '.' . $extension;
+                                //file_put_contents(public_path('avatar/') . $fileName, $avatar);
+                                $img = Image::make($randomUser->avatar)->resize(50, 50);
+                                $img->save(public_path('avatar/' . $fileName));
+                                $randomUser->avatar = env('APP_URL') . 'avatar/' . $fileName;
+                                return ['nickname' => $randomUser->nickname, 'avatar' => $randomUser->avatar];
+                            });
+                    Cache::forever("fd$frame->fd", $userInfo);
+                    echo "生成token并且保存:$token" . "\n" . '用户资料:';
+                    var_dump($userInfo);
+                    $ws->push($frame->fd, json_encode($pushData));
+                } else {
+                    $userInfo = Cache::get($data['token']);
+                    echo "userInfo\n";
+                    var_dump($userInfo);
+                }
+                if ($userInfo) {
+                    $pushData = ['type' => 'inform', 'content' => "欢迎{$userInfo['nickname']}进入聊天室"];
+                    foreach ($ws->connections as $i) {
+                        $ws->push($i, json_encode($pushData));
+                    }
                 }
             }
+
             // $ws->push($frame->fd, "server: {$frame->data}");
             // $ws->push($frame->fd, "server: {$frame->data}");
         });
 
-//监听WebSocket连接关闭事件
+        //监听WebSocket连接关闭事件
         $ws->on('close', function ($ws, $fd) {
             $this->info("client-{$fd} is closed\n");
+            $userInfo = Cache::get("fd$fd");
+            var_dump($userInfo);
+            if ($userInfo) {
+                $pushData = ['type' => 'inform', 'content' => "{$userInfo['nickname']}退出了聊天室"];
+                foreach ($ws->connections as $i) {
+                    $ws->push($i, json_encode($pushData));
+                }
+            }
         });
-        $this->info('server starting at 9502 port...');
 
-        $ws->start();   
+        $ws->on('shutdown', function($ws, $fd) {
+            echo 'onShutdown';
+        });
+
+        $this->info("server starting at 9502 port...");
+        $ws->start();
     }
 
 }

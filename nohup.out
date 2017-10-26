@@ -1,0 +1,2343 @@
+[2017-10-26 15:32:43 @16154.0]	WARNING	swSocket_bind (ERROR 502): bind(0.0.0.0:9502) failed. Error: Address already in use [98]
+
+                                                                               
+  [swoole_exception]                                                           
+  failed to listen server port[0.0.0.0:9502]. Error: Address already in use[9  
+  8].                                                                          
+                                                                               
+
+[2017-10-26 15:33:37 @16188.0]	WARNING	swSocket_bind (ERROR 502): bind(0.0.0.0:9502) failed. Error: Address already in use [98]
+
+                                                                               
+  [swoole_exception]                                                           
+  failed to listen server port[0.0.0.0:9502]. Error: Address already in use[9  
+  8].                                                                          
+                                                                               
+
+server starting at 9502 port...
+client-1 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f189d91d21d"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(16) "岸_汐汐哈哈"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/56145c70f93c3420ffc5bfb172fc25ac.jpg"
+}
+client-1 is closed
+
+NULL
+[2017-10-26 15:35:04 *16250.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 68 byte failed, because connection[fd=1] is closed.
+client-2 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f189d91d21d"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(16) "岸_汐汐哈哈"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/56145c70f93c3420ffc5bfb172fc25ac.jpg"
+}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f189d91d21d"
+  ["content"]=>
+  string(1) "z"
+}
+(fd:2)岸_汐汐哈哈:{"type":"message","token":"user_59f189d91d21d","content":"z"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f189d91d21d"
+  ["content"]=>
+  string(6) "fsfdsa"
+}
+(fd:2)岸_汐汐哈哈:{"type":"message","token":"user_59f189d91d21d","content":"fsfdsa"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f189d91d21d"
+  ["content"]=>
+  string(4) "test"
+}
+(fd:2)岸_汐汐哈哈:{"type":"message","token":"user_59f189d91d21d","content":"test"}
+server starting at 9502 port...
+client-1 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f189d91d21d"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(16) "岸_汐汐哈哈"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/56145c70f93c3420ffc5bfb172fc25ac.jpg"
+}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f189d91d21d"
+  ["content"]=>
+  string(4) "test"
+}
+(fd:1)岸_汐汐哈哈:{"type":"message","token":"user_59f189d91d21d","content":"test"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f189d91d21d"
+  ["content"]=>
+  string(2) "zz"
+}
+(fd:1)岸_汐汐哈哈:{"type":"message","token":"user_59f189d91d21d","content":"zz"}
+server starting at 9502 port...
+client-1 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f189d91d21d"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(16) "岸_汐汐哈哈"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/56145c70f93c3420ffc5bfb172fc25ac.jpg"
+}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f189d91d21d"
+  ["content"]=>
+  string(1) "d"
+}
+(fd:1)岸_汐汐哈哈:{"type":"message","token":"user_59f189d91d21d","content":"d"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f189d91d21d"
+  ["content"]=>
+  string(5) "dsfas"
+}
+(fd:1)岸_汐汐哈哈:{"type":"message","token":"user_59f189d91d21d","content":"dsfas"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f189d91d21d"
+  ["content"]=>
+  string(2) "zz"
+}
+(fd:1)岸_汐汐哈哈:{"type":"message","token":"user_59f189d91d21d","content":"zz"}
+client-2 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  NULL
+}
+生成token并且保存:user_59f19bac14fc7
+用户资料:array(2) {
+  ["nickname"]=>
+  string(9) "浩华德"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/b6e8865a3702b72266f9dde4b1a53379.png"
+}
+client-2 is closed
+
+array(2) {
+  ["nickname"]=>
+  string(9) "浩华德"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/b6e8865a3702b72266f9dde4b1a53379.png"
+}
+[2017-10-26 16:24:23 *16306.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 86 byte failed, because connection[fd=2] is closed.
+client-3 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  NULL
+}
+生成token并且保存:user_59f19bcd4377a
+用户资料:array(2) {
+  ["nickname"]=>
+  string(12) "CZRJJSMT-IVY"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/a4b4907f8c53fa076e024501804fda28.jpg"
+}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f19bcd4377a"
+  ["content"]=>
+  string(6) "什么"
+}
+(fd:3)CZRJJSMT-IVY:{"type":"message","token":"user_59f19bcd4377a","content":"什么"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f19bcd4377a"
+  ["content"]=>
+  string(9) "有人不"
+}
+(fd:3)CZRJJSMT-IVY:{"type":"message","token":"user_59f19bcd4377a","content":"有人不"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f19bcd4377a"
+  ["content"]=>
+  string(6) "走了"
+}
+(fd:3)CZRJJSMT-IVY:{"type":"message","token":"user_59f19bcd4377a","content":"走了"}
+client-4 is connected
+
+client-5 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  NULL
+}
+PHP Fatal error:  Uncaught ErrorException: md5_file(/Public/Image/user_pic_fat.png): failed to open stream: No such file or directory in /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php:87
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'md5_file(/Publi...', '/data/wwwroot/l...', 87, Array)
+#1 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php(87): md5_file('/Public/Image/u...')
+#2 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminate/Cache/Repository.php(326): App\Console\Commands\Chat->App\Console\Commands\{closure}()
+#3 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminate/Cache/CacheManager.php(305): Illuminate\Cache\Repository->rememberForever('user_59f19bfa1d...', Object(Closure))
+#4 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(221): Illuminate\Cache\CacheManager->__call('rememberForever', Array)
+#5 /data/wwwroot/laravel-swoole-chat/app/Console/C in /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php on line 87
+
+                                                                               
+  [Symfony\Component\Debug\Exception\FatalErrorException]                      
+  Uncaught ErrorException: md5_file(/Public/Image/user_pic_fat.png): failed t  
+  o open stream: No such file or directory in /data/wwwroot/laravel-swoole-ch  
+  at/app/Console/Commands/Chat.php:87                                          
+  Stack trace:                                                                 
+  #0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->h  
+  andleError(2, 'md5_file(/Publi...', '/data/wwwroot/l...', 87, Array)         
+  #1 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php(87): md5  
+  _file('/Public/Image/u...')                                                  
+  #2 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminat  
+  e/Cache/Repository.php(326): App\Console\Commands\Chat->App\Console\Command  
+  s\{closure}()                                                                
+  #3 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminat  
+  e/Cache/CacheManager.php(305): Illuminate\Cache\Repository->rememberForever  
+  ('user_59f19bfa1d...', Object(Closure))                                      
+  #4 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminat  
+  e/Support/Facades/Facade.php(221): Illuminate\Cache\CacheManager->__call('r  
+  ememberForever', Array)                                                      
+  #5 /data/wwwroot/laravel-swoole-chat/app/Console/C                           
+                                                                               
+
+[2017-10-26 16:25:30 *16306.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught ErrorException: md5_file(/Public/Image/user_pic_fat.png): failed to open stream: No such file or directory in /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php:87
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'md5_file(/Publi...', '/data/wwwroot/l...', 87, Array)
+#1 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php(87): md5_file('/Public/Image/u...')
+#2 /data/wwwroot/l
+[2017-10-26 16:25:30 $16304.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  NULL
+}
+生成token并且保存:user_59f19bfaa7d81
+用户资料:array(2) {
+  ["nickname"]=>
+  string(18) "天真他本家_qq"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/76d32005810e303fbc55b733abefaa68.jpg"
+}
+client-5 is closed
+
+array(2) {
+  ["nickname"]=>
+  string(18) "天真他本家_qq"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/76d32005810e303fbc55b733abefaa68.jpg"
+}
+[2017-10-26 16:25:36 *16381.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 101 byte failed, because connection[fd=5] is closed.
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f19bfaa7d81"
+  ["content"]=>
+  string(8) "........"
+}
+(fd:4)天真他本家_qq:{"type":"message","token":"user_59f19bfaa7d81","content":"........"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f19bcd4377a"
+  ["content"]=>
+  string(9) "叫姐姐"
+}
+(fd:3)CZRJJSMT-IVY:{"type":"message","token":"user_59f19bcd4377a","content":"叫姐姐"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f19bfaa7d81"
+  ["content"]=>
+  string(3) "123"
+}
+(fd:4)天真他本家_qq:{"type":"message","token":"user_59f19bfaa7d81","content":"123"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f19bcd4377a"
+  ["content"]=>
+  string(9) "叫姐姐"
+}
+(fd:3)CZRJJSMT-IVY:{"type":"message","token":"user_59f19bcd4377a","content":"叫姐姐"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f19bfaa7d81"
+  ["content"]=>
+  string(3) "456"
+}
+(fd:4)天真他本家_qq:{"type":"message","token":"user_59f19bfaa7d81","content":"456"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f19bcd4377a"
+  ["content"]=>
+  string(4) "😒"
+}
+(fd:3)CZRJJSMT-IVY:{"type":"message","token":"user_59f19bcd4377a","content":"😒"}
+client-3 is closed
+
+array(2) {
+  ["nickname"]=>
+  string(12) "CZRJJSMT-IVY"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/a4b4907f8c53fa076e024501804fda28.jpg"
+}
+[2017-10-26 16:27:15 *16381.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 80 byte failed, because connection[fd=3] is closed.
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f19bfaa7d81"
+  ["content"]=>
+  string(1) "1"
+}
+(fd:4)天真他本家_qq:{"type":"message","token":"user_59f19bfaa7d81","content":"1"}
+client-6 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f19bcd4377a"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(12) "CZRJJSMT-IVY"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/a4b4907f8c53fa076e024501804fda28.jpg"
+}
+client-6 is closed
+
+array(2) {
+  ["nickname"]=>
+  string(12) "洛舟轻湮"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/d271c9a95788bb43ff3625e181ce316e.png"
+}
+[2017-10-26 16:27:45 *16381.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 92 byte failed, because connection[fd=6] is closed.
+client-7 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f19bfaa7d81"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(18) "天真他本家_qq"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/76d32005810e303fbc55b733abefaa68.jpg"
+}
+client-8 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f19bfaa7d81"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(18) "天真他本家_qq"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/76d32005810e303fbc55b733abefaa68.jpg"
+}
+client-9 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f19bfaa7d81"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(18) "天真他本家_qq"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/76d32005810e303fbc55b733abefaa68.jpg"
+}
+client-10 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f19bfaa7d81"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(18) "天真他本家_qq"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/76d32005810e303fbc55b733abefaa68.jpg"
+}
+client-11 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f19bfaa7d81"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(18) "天真他本家_qq"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/76d32005810e303fbc55b733abefaa68.jpg"
+}
+client-12 is connected
+
+client-13 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f19bfaa7d81"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(18) "天真他本家_qq"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/76d32005810e303fbc55b733abefaa68.jpg"
+}
+client-14 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f19bfaa7d81"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(18) "天真他本家_qq"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/76d32005810e303fbc55b733abefaa68.jpg"
+}
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f19bfaa7d81"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(18) "天真他本家_qq"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/76d32005810e303fbc55b733abefaa68.jpg"
+}
+client-9 is closed
+
+array(2) {
+  ["nickname"]=>
+  string(27) "U酱SAMA( *・ω・)✄_qq"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/1811019cf7eb6fe00e4bda1840a1fc05.jpg"
+}
+[2017-10-26 16:28:03 *16381.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 115 byte failed, because connection[fd=9] is closed.
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f19bfaa7d81"
+  ["content"]=>
+  string(1) "1"
+}
+(fd:13)天真他本家_qq:{"type":"message","token":"user_59f19bfaa7d81","content":"1"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f19bfaa7d81"
+  ["content"]=>
+  string(25) "1111111111111111111111111"
+}
+(fd:12)天真他本家_qq:{"type":"message","token":"user_59f19bfaa7d81","content":"1111111111111111111111111"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f19bfaa7d81"
+  ["content"]=>
+  string(12) "222222222222"
+}
+(fd:10)天真他本家_qq:{"type":"message","token":"user_59f19bfaa7d81","content":"222222222222"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f19bfaa7d81"
+  ["content"]=>
+  string(18) "444444444444444444"
+}
+(fd:8)天真他本家_qq:{"type":"message","token":"user_59f19bfaa7d81","content":"444444444444444444"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f19bfaa7d81"
+  ["content"]=>
+  string(12) "333333333333"
+}
+(fd:10)天真他本家_qq:{"type":"message","token":"user_59f19bfaa7d81","content":"333333333333"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f19bfaa7d81"
+  ["content"]=>
+  string(38) "22222222222222222222222222222222222222"
+}
+(fd:11)天真他本家_qq:{"type":"message","token":"user_59f19bfaa7d81","content":"22222222222222222222222222222222222222"}
+client-15 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  NULL
+}
+生成token并且保存:user_59f19cd18017a
+用户资料:array(2) {
+  ["nickname"]=>
+  string(12) "小雯子No1"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/52dc35a5c8b6d1ac51ff6e26da94d993.png"
+}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f19cd18017a"
+  ["content"]=>
+  string(9) "啦啦啦"
+}
+(fd:15)小雯子No1:{"type":"message","token":"user_59f19cd18017a","content":"啦啦啦"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f19cd18017a"
+  ["content"]=>
+  string(9) "没有人"
+}
+(fd:15)小雯子No1:{"type":"message","token":"user_59f19cd18017a","content":"没有人"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f19cd18017a"
+  ["content"]=>
+  string(9) "退出了"
+}
+(fd:15)小雯子No1:{"type":"message","token":"user_59f19cd18017a","content":"退出了"}
+client-16 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  NULL
+}
+生成token并且保存:user_59f19cf05e832
+用户资料:array(2) {
+  ["nickname"]=>
+  string(6) "姽风"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/9abf7d69a8c5f67692d25ed1c6a553a0.jpg"
+}
+[2017-10-26 16:29:39 *16381.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 86 byte failed, because connection[fd=15] is closed.
+client-15 is closed
+
+array(2) {
+  ["nickname"]=>
+  string(12) "小雯子No1"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/52dc35a5c8b6d1ac51ff6e26da94d993.png"
+}
+[2017-10-26 16:29:39 *16381.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 89 byte failed, because connection[fd=15] is closed.
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f19cf05e832"
+  ["content"]=>
+  string(6) "哈哈"
+}
+(fd:16)姽风:{"type":"message","token":"user_59f19cf05e832","content":"哈哈"}
+client-16 is closed
+
+array(2) {
+  ["nickname"]=>
+  string(6) "姽风"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/9abf7d69a8c5f67692d25ed1c6a553a0.jpg"
+}
+[2017-10-26 16:29:59 *16381.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 80 byte failed, because connection[fd=16] is closed.
+client-17 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f19cf05e832"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(6) "姽风"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/9abf7d69a8c5f67692d25ed1c6a553a0.jpg"
+}
+client-17 is closed
+
+NULL
+client-18 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f19cf05e832"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(6) "姽风"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/9abf7d69a8c5f67692d25ed1c6a553a0.jpg"
+}
+client-18 is closed
+
+NULL
+client-7 is closed
+
+array(2) {
+  ["nickname"]=>
+  string(8) "__嘲月"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/f5c3c6b9cff49269f7a04f408fcf427f.png"
+}
+[2017-10-26 16:30:36 *16381.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 82 byte failed, because connection[fd=7] is closed.
+client-8 is closed
+
+array(2) {
+  ["nickname"]=>
+  string(15) "德意志铁骑"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/661aecca5b59283d6c9342e8ee7338bc.png"
+}
+[2017-10-26 16:30:37 *16381.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 98 byte failed, because connection[fd=8] is closed.
+client-19 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  NULL
+}
+生成token并且保存:user_59f19d40575bd
+用户资料:array(2) {
+  ["nickname"]=>
+  string(19) "络楼_需要补脑"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/849b25a373de605e5daf1d9527bc712d.jpg"
+}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f19d40575bd"
+  ["content"]=>
+  string(6) "。。"
+}
+(fd:19)络楼_需要补脑:{"type":"message","token":"user_59f19d40575bd","content":"。。"}
+client-19 is closed
+
+array(2) {
+  ["nickname"]=>
+  string(19) "络楼_需要补脑"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/849b25a373de605e5daf1d9527bc712d.jpg"
+}
+[2017-10-26 16:31:10 *16381.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 105 byte failed, because connection[fd=19] is closed.
+client-20 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f18b2ade5d2"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(12) "努力吧宁"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/ca0fb9570cac233aa2c1d0d6bc62d17b.png"
+}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f18b2ade5d2"
+  ["content"]=>
+  string(6) "测试"
+}
+(fd:20)努力吧宁:{"type":"message","token":"user_59f18b2ade5d2","content":"测试"}
+client-10 is closed
+
+array(2) {
+  ["nickname"]=>
+  string(13) "ZERO95-凛凛"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/ba75e583798f9d19e901513c68520eda.jpg"
+}
+[2017-10-26 16:31:35 *16381.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 87 byte failed, because connection[fd=10] is closed.
+client-11 is closed
+
+NULL
+client-12 is closed
+
+NULL
+client-13 is closed
+
+array(2) {
+  ["nickname"]=>
+  string(11) "帅比av酱"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/e4b80b85dd3e8d390168d86fa5d84bac.jpg"
+}
+[2017-10-26 16:31:38 *16381.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 88 byte failed, because connection[fd=13] is closed.
+client-14 is closed
+
+NULL
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f18b2ade5d2"
+  ["content"]=>
+  string(6) "。。"
+}
+(fd:20)努力吧宁:{"type":"message","token":"user_59f18b2ade5d2","content":"。。"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f189d91d21d"
+  ["content"]=>
+  string(6) "，，"
+}
+(fd:1)岸_汐汐哈哈:{"type":"message","token":"user_59f189d91d21d","content":"，，"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f189d91d21d"
+  ["content"]=>
+  string(6) "哈哈"
+}
+(fd:1)岸_汐汐哈哈:{"type":"message","token":"user_59f189d91d21d","content":"哈哈"}
+client-4 is closed
+
+array(2) {
+  ["nickname"]=>
+  string(12) "努力吧宁"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/ca0fb9570cac233aa2c1d0d6bc62d17b.png"
+}
+[2017-10-26 16:32:04 *16381.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 92 byte failed, because connection[fd=4] is closed.
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f189d91d21d"
+  ["content"]=>
+  string(3) "。"
+}
+(fd:1)岸_汐汐哈哈:{"type":"message","token":"user_59f189d91d21d","content":"。"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f18b2ade5d2"
+  ["content"]=>
+  string(6) "嗯嗯"
+}
+(fd:20)努力吧宁:{"type":"message","token":"user_59f18b2ade5d2","content":"嗯嗯"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f189d91d21d"
+  ["content"]=>
+  string(2) "zz"
+}
+(fd:1)岸_汐汐哈哈:{"type":"message","token":"user_59f189d91d21d","content":"zz"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f189d91d21d"
+  ["content"]=>
+  string(3) "fsf"
+}
+(fd:1)岸_汐汐哈哈:{"type":"message","token":"user_59f189d91d21d","content":"fsf"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f189d91d21d"
+  ["content"]=>
+  string(6) "wqeqwe"
+}
+(fd:1)岸_汐汐哈哈:{"type":"message","token":"user_59f189d91d21d","content":"wqeqwe"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f189d91d21d"
+  ["content"]=>
+  string(2) "zz"
+}
+(fd:1)岸_汐汐哈哈:{"type":"message","token":"user_59f189d91d21d","content":"zz"}
+client-20 is closed
+
+NULL
+client-21 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f18b2ade5d2"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(12) "努力吧宁"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/ca0fb9570cac233aa2c1d0d6bc62d17b.png"
+}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f18b2ade5d2"
+  ["content"]=>
+  string(6) "测试"
+}
+(fd:21)努力吧宁:{"type":"message","token":"user_59f18b2ade5d2","content":"测试"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f18b2ade5d2"
+  ["content"]=>
+  string(6) "哈哈"
+}
+(fd:21)努力吧宁:{"type":"message","token":"user_59f18b2ade5d2","content":"哈哈"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f189d91d21d"
+  ["content"]=>
+  string(4) "zzzz"
+}
+(fd:1)岸_汐汐哈哈:{"type":"message","token":"user_59f189d91d21d","content":"zzzz"}
+server starting at 9502 port...
+client-1 is connected
+
+client-2 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f18b2ade5d2"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(12) "努力吧宁"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/ca0fb9570cac233aa2c1d0d6bc62d17b.png"
+}
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f189d91d21d"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(16) "岸_汐汐哈哈"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/56145c70f93c3420ffc5bfb172fc25ac.jpg"
+}
+client-1 is closed
+
+NULL
+client-3 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f18b2ade5d2"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(12) "努力吧宁"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/ca0fb9570cac233aa2c1d0d6bc62d17b.png"
+}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f18b2ade5d2"
+  ["content"]=>
+  string(4) "test"
+}
+(fd:3)努力吧宁:{"type":"message","token":"user_59f18b2ade5d2","content":"test"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f189d91d21d"
+  ["content"]=>
+  string(3) "zzz"
+}
+(fd:2)岸_汐汐哈哈:{"type":"message","token":"user_59f189d91d21d","content":"zzz"}
+client-3 is closed
+
+array(2) {
+  ["nickname"]=>
+  string(12) "CZRJJSMT-IVY"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/a4b4907f8c53fa076e024501804fda28.jpg"
+}
+[2017-10-26 16:38:52 *16430.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 80 byte failed, because connection[fd=3] is closed.
+client-4 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f18b2ade5d2"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(12) "努力吧宁"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/ca0fb9570cac233aa2c1d0d6bc62d17b.png"
+}
+client-4 is closed
+
+array(2) {
+  ["nickname"]=>
+  string(12) "努力吧宁"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/ca0fb9570cac233aa2c1d0d6bc62d17b.png"
+}
+[2017-10-26 16:39:31 *16430.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 92 byte failed, because connection[fd=4] is closed.
+client-5 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f18b2ade5d2"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(12) "努力吧宁"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/ca0fb9570cac233aa2c1d0d6bc62d17b.png"
+}
+client-5 is closed
+
+array(2) {
+  ["nickname"]=>
+  string(18) "天真他本家_qq"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/76d32005810e303fbc55b733abefaa68.jpg"
+}
+[2017-10-26 16:39:40 *16430.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 101 byte failed, because connection[fd=5] is closed.
+client-6 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  NULL
+}
+生成token并且保存:user_59f19f6071ad3
+用户资料:array(2) {
+  ["nickname"]=>
+  string(18) "DAdonikaaaaaaaaaaa"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/71f8e8b7b32a8c1db519b095eaa93bde.jpg"
+}
+client-6 is closed
+
+array(2) {
+  ["nickname"]=>
+  string(18) "DAdonikaaaaaaaaaaa"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/71f8e8b7b32a8c1db519b095eaa93bde.jpg"
+}
+[2017-10-26 16:40:05 *16430.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 86 byte failed, because connection[fd=6] is closed.
+client-7 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f19f6071ad3"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(18) "DAdonikaaaaaaaaaaa"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/71f8e8b7b32a8c1db519b095eaa93bde.jpg"
+}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f19f6071ad3"
+  ["content"]=>
+  string(4) "test"
+}
+(fd:7)DAdonikaaaaaaaaaaa:{"type":"message","token":"user_59f19f6071ad3","content":"test"}
+client-7 is closed
+
+array(2) {
+  ["nickname"]=>
+  string(8) "__嘲月"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/f5c3c6b9cff49269f7a04f408fcf427f.png"
+}
+[2017-10-26 16:41:04 *16430.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 82 byte failed, because connection[fd=7] is closed.
+client-8 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  NULL
+}
+PHP Fatal error:  Uncaught ErrorException: md5_file(/Public/Image/user_pic_fat.png): failed to open stream: No such file or directory in /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php:87
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'md5_file(/Publi...', '/data/wwwroot/l...', 87, Array)
+#1 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php(87): md5_file('/Public/Image/u...')
+#2 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminate/Cache/Repository.php(326): App\Console\Commands\Chat->App\Console\Commands\{closure}()
+#3 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminate/Cache/CacheManager.php(305): Illuminate\Cache\Repository->rememberForever('user_59f19fb5c1...', Object(Closure))
+#4 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(221): Illuminate\Cache\CacheManager->__call('rememberForever', Array)
+#5 /data/wwwroot/laravel-swoole-chat/app/Console/C in /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php on line 87
+
+                                                                               
+  [Symfony\Component\Debug\Exception\FatalErrorException]                      
+  Uncaught ErrorException: md5_file(/Public/Image/user_pic_fat.png): failed t  
+  o open stream: No such file or directory in /data/wwwroot/laravel-swoole-ch  
+  at/app/Console/Commands/Chat.php:87                                          
+  Stack trace:                                                                 
+  #0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->h  
+  andleError(2, 'md5_file(/Publi...', '/data/wwwroot/l...', 87, Array)         
+  #1 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php(87): md5  
+  _file('/Public/Image/u...')                                                  
+  #2 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminat  
+  e/Cache/Repository.php(326): App\Console\Commands\Chat->App\Console\Command  
+  s\{closure}()                                                                
+  #3 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminat  
+  e/Cache/CacheManager.php(305): Illuminate\Cache\Repository->rememberForever  
+  ('user_59f19fb5c1...', Object(Closure))                                      
+  #4 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminat  
+  e/Support/Facades/Facade.php(221): Illuminate\Cache\CacheManager->__call('r  
+  ememberForever', Array)                                                      
+  #5 /data/wwwroot/laravel-swoole-chat/app/Console/C                           
+                                                                               
+
+[2017-10-26 16:41:26 *16430.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught ErrorException: md5_file(/Public/Image/user_pic_fat.png): failed to open stream: No such file or directory in /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php:87
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'md5_file(/Publi...', '/data/wwwroot/l...', 87, Array)
+#1 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php(87): md5_file('/Public/Image/u...')
+#2 /data/wwwroot/l
+[2017-10-26 16:41:26 $16428.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+client-8 is closed
+
+array(2) {
+  ["nickname"]=>
+  string(15) "德意志铁骑"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/661aecca5b59283d6c9342e8ee7338bc.png"
+}
+[2017-10-26 16:41:40 *16438.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 98 byte failed, because connection[fd=8] is closed.
+client-9 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f19f6071ad3"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(18) "DAdonikaaaaaaaaaaa"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/71f8e8b7b32a8c1db519b095eaa93bde.jpg"
+}
+client-9 is closed
+
+array(2) {
+  ["nickname"]=>
+  string(27) "U酱SAMA( *・ω・)✄_qq"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/1811019cf7eb6fe00e4bda1840a1fc05.jpg"
+}
+[2017-10-26 16:42:52 *16438.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 115 byte failed, because connection[fd=9] is closed.
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f189d91d21d"
+  ["content"]=>
+  string(4) "mmmm"
+}
+(fd:2)岸_汐汐哈哈:{"type":"message","token":"user_59f189d91d21d","content":"mmmm"}
+client-10 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  NULL
+}
+生成token并且保存:user_59f1a04abd84b
+用户资料:array(2) {
+  ["nickname"]=>
+  string(12) "陌莫_Milky"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/e5e38e84a08de3529abce2ee50ed5e71.jpg"
+}
+client-10 is closed
+
+array(2) {
+  ["nickname"]=>
+  string(12) "陌莫_Milky"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/e5e38e84a08de3529abce2ee50ed5e71.jpg"
+}
+[2017-10-26 16:44:09 *16438.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 86 byte failed, because connection[fd=10] is closed.
+client-11 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f19f6071ad3"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(18) "DAdonikaaaaaaaaaaa"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/71f8e8b7b32a8c1db519b095eaa93bde.jpg"
+}
+client-12 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  NULL
+}
+生成token并且保存:user_59f1a06f3af35
+用户资料:array(2) {
+  ["nickname"]=>
+  string(6) "瀅逖"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/9148f7ecaa8e836ab8e05048e2022577.png"
+}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f189d91d21d"
+  ["content"]=>
+  string(1) "."
+}
+(fd:2)岸_汐汐哈哈:{"type":"message","token":"user_59f189d91d21d","content":"."}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f19f6071ad3"
+  ["content"]=>
+  string(6) "测试"
+}
+(fd:11)DAdonikaaaaaaaaaaa:{"type":"message","token":"user_59f19f6071ad3","content":"测试"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f1a06f3af35"
+  ["content"]=>
+  string(3) "666"
+}
+(fd:12)瀅逖:{"type":"message","token":"user_59f1a06f3af35","content":"666"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f19f6071ad3"
+  ["content"]=>
+  string(11) "😁  😁 "
+}
+(fd:11)DAdonikaaaaaaaaaaa:{"type":"message","token":"user_59f19f6071ad3","content":"😁  😁 "}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f1a06f3af35"
+  ["content"]=>
+  string(12) "😂        "
+}
+(fd:12)瀅逖:{"type":"message","token":"user_59f1a06f3af35","content":"😂        "}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f1a06f3af35"
+  ["content"]=>
+  string(18) "图片打不开吗"
+}
+(fd:12)瀅逖:{"type":"message","token":"user_59f1a06f3af35","content":"图片打不开吗"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f1a06f3af35"
+  ["content"]=>
+  string(21) "你为啥是繁体字"
+}
+(fd:12)瀅逖:{"type":"message","token":"user_59f1a06f3af35","content":"你为啥是繁体字"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f19f6071ad3"
+  ["content"]=>
+  string(24) "网名是自动生成的"
+}
+(fd:11)DAdonikaaaaaaaaaaa:{"type":"message","token":"user_59f19f6071ad3","content":"网名是自动生成的"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f1a06f3af35"
+  ["content"]=>
+  string(21) "哦那是你网名啊"
+}
+(fd:12)瀅逖:{"type":"message","token":"user_59f1a06f3af35","content":"哦那是你网名啊"}
+client-12 is closed
+
+array(2) {
+  ["nickname"]=>
+  string(6) "瀅逖"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/9148f7ecaa8e836ab8e05048e2022577.png"
+}
+[2017-10-26 16:46:09 *16438.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 80 byte failed, because connection[fd=12] is closed.
+client-13 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f1a06f3af35"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(6) "瀅逖"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/9148f7ecaa8e836ab8e05048e2022577.png"
+}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f1a06f3af35"
+  ["content"]=>
+  string(24) "那个是我的网名啊"
+}
+(fd:13)瀅逖:{"type":"message","token":"user_59f1a06f3af35","content":"那个是我的网名啊"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f19f6071ad3"
+  ["content"]=>
+  string(6) "是啊"
+}
+(fd:11)DAdonikaaaaaaaaaaa:{"type":"message","token":"user_59f19f6071ad3","content":"是啊"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f1a06f3af35"
+  ["content"]=>
+  string(18) "我一开始没懂"
+}
+(fd:13)瀅逖:{"type":"message","token":"user_59f1a06f3af35","content":"我一开始没懂"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f19f6071ad3"
+  ["content"]=>
+  string(9) "哈哈哈"
+}
+(fd:11)DAdonikaaaaaaaaaaa:{"type":"message","token":"user_59f19f6071ad3","content":"哈哈哈"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f19f6071ad3"
+  ["content"]=>
+  string(97) "现在用手机wifi打开的话，图片可能不显示，手机用流量或者电脑都没问题"
+}
+(fd:11)DAdonikaaaaaaaaaaa:{"type":"message","token":"user_59f19f6071ad3","content":"现在用手机wifi打开的话，图片可能不显示，手机用流量或者电脑都没问题"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f19f6071ad3"
+  ["content"]=>
+  string(24) "这个问题还在解决"
+}
+(fd:11)DAdonikaaaaaaaaaaa:{"type":"message","token":"user_59f19f6071ad3","content":"这个问题还在解决"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f1a06f3af35"
+  ["content"]=>
+  string(48) "这个聊天要是在十年之前就是厉害啦"
+}
+(fd:13)瀅逖:{"type":"message","token":"user_59f1a06f3af35","content":"这个聊天要是在十年之前就是厉害啦"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f1a06f3af35"
+  ["content"]=>
+  string(18) "感觉自己复古"
+}
+(fd:13)瀅逖:{"type":"message","token":"user_59f1a06f3af35","content":"感觉自己复古"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f19f6071ad3"
+  ["content"]=>
+  string(42) "是啊，就抱着学习的心态自己做"
+}
+(fd:11)DAdonikaaaaaaaaaaa:{"type":"message","token":"user_59f19f6071ad3","content":"是啊，就抱着学习的心态自己做"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f1a06f3af35"
+  ["content"]=>
+  string(6) "嗯嗯"
+}
+(fd:13)瀅逖:{"type":"message","token":"user_59f1a06f3af35","content":"嗯嗯"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f1a06f3af35"
+  ["content"]=>
+  string(55) "以后（*ﾟ∀ﾟ）つ―{}@{}@{}-　来吃烧烤♪"
+}
+(fd:13)瀅逖:{"type":"message","token":"user_59f1a06f3af35","content":"以后（*ﾟ∀ﾟ）つ―{}@{}@{}-　来吃烧烤♪"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f19f6071ad3"
+  ["content"]=>
+  string(21) "怎么吃，在哪吃"
+}
+(fd:11)DAdonikaaaaaaaaaaa:{"type":"message","token":"user_59f19f6071ad3","content":"怎么吃，在哪吃"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f1a06f3af35"
+  ["content"]=>
+  string(31) "(๑‾᷅^‾᷅๑) 嫌弃你"
+}
+(fd:13)瀅逖:{"type":"message","token":"user_59f1a06f3af35","content":"(๑‾᷅^‾᷅๑) 嫌弃你"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f1a06f3af35"
+  ["content"]=>
+  string(9) "没得吃"
+}
+(fd:13)瀅逖:{"type":"message","token":"user_59f1a06f3af35","content":"没得吃"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f19f6071ad3"
+  ["content"]=>
+  string(13) " 😌  😌  "
+}
+(fd:11)DAdonikaaaaaaaaaaa:{"type":"message","token":"user_59f19f6071ad3","content":" 😌  😌  "}
+client-13 is closed
+
+array(2) {
+  ["nickname"]=>
+  string(11) "帅比av酱"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/e4b80b85dd3e8d390168d86fa5d84bac.jpg"
+}
+[2017-10-26 16:49:12 *16438.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 88 byte failed, because connection[fd=13] is closed.
+client-14 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f1a06f3af35"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(6) "瀅逖"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/9148f7ecaa8e836ab8e05048e2022577.png"
+}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f1a06f3af35"
+  ["content"]=>
+  string(36) "我一出去就没有聊天记录了"
+}
+(fd:14)瀅逖:{"type":"message","token":"user_59f1a06f3af35","content":"我一出去就没有聊天记录了"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f1a06f3af35"
+  ["content"]=>
+  string(6) "哈哈"
+}
+(fd:14)瀅逖:{"type":"message","token":"user_59f1a06f3af35","content":"哈哈"}
+client-15 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  NULL
+}
+生成token并且保存:user_59f1a1a068c56
+用户资料:array(2) {
+  ["nickname"]=>
+  string(12) "兔眠神_Mz"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/324ac3c951dccb31f3af6735f866911c.jpg"
+}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f1a1a068c56"
+  ["content"]=>
+  string(9) "。。。"
+}
+(fd:15)兔眠神_Mz:{"type":"message","token":"user_59f1a1a068c56","content":"。。。"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f19f6071ad3"
+  ["content"]=>
+  string(42) "嗯，现在只是实现了简单的功能"
+}
+(fd:11)DAdonikaaaaaaaaaaa:{"type":"message","token":"user_59f19f6071ad3","content":"嗯，现在只是实现了简单的功能"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f1a06f3af35"
+  ["content"]=>
+  string(15) "那个是谁啊"
+}
+(fd:14)瀅逖:{"type":"message","token":"user_59f1a06f3af35","content":"那个是谁啊"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f19f6071ad3"
+  ["content"]=>
+  string(15) "才做几天呢"
+}
+(fd:11)DAdonikaaaaaaaaaaa:{"type":"message","token":"user_59f19f6071ad3","content":"才做几天呢"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f19f6071ad3"
+  ["content"]=>
+  string(30) "其实我也不知道他是谁"
+}
+(fd:11)DAdonikaaaaaaaaaaa:{"type":"message","token":"user_59f19f6071ad3","content":"其实我也不知道他是谁"}
+client-14 is closed
+
+NULL
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f1a1a068c56"
+  ["content"]=>
+  string(30) "头像名字随机生成的吗"
+}
+(fd:15)兔眠神_Mz:{"type":"message","token":"user_59f1a1a068c56","content":"头像名字随机生成的吗"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f19f6071ad3"
+  ["content"]=>
+  string(6) "是的"
+}
+(fd:11)DAdonikaaaaaaaaaaa:{"type":"message","token":"user_59f19f6071ad3","content":"是的"}
+client-16 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f1a06f3af35"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(6) "瀅逖"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/9148f7ecaa8e836ab8e05048e2022577.png"
+}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f19f6071ad3"
+  ["content"]=>
+  string(24) "几十万条随机数据"
+}
+(fd:11)DAdonikaaaaaaaaaaa:{"type":"message","token":"user_59f19f6071ad3","content":"几十万条随机数据"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f1a1a068c56"
+  ["content"]=>
+  string(36) "退出去重进还是这个名字吗"
+}
+(fd:15)兔眠神_Mz:{"type":"message","token":"user_59f1a1a068c56","content":"退出去重进还是这个名字吗"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f19f6071ad3"
+  ["content"]=>
+  string(6) "是的"
+}
+(fd:11)DAdonikaaaaaaaaaaa:{"type":"message","token":"user_59f19f6071ad3","content":"是的"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f1a06f3af35"
+  ["content"]=>
+  string(45) "我给我同学发送了一下他进不来啊"
+}
+(fd:16)瀅逖:{"type":"message","token":"user_59f1a06f3af35","content":"我给我同学发送了一下他进不来啊"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f1a06f3af35"
+  ["content"]=>
+  string(6) "哈哈"
+}
+(fd:16)瀅逖:{"type":"message","token":"user_59f1a06f3af35","content":"哈哈"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f19f6071ad3"
+  ["content"]=>
+  string(21) "让他在微信里进"
+}
+(fd:11)DAdonikaaaaaaaaaaa:{"type":"message","token":"user_59f19f6071ad3","content":"让他在微信里进"}
+client-17 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  NULL
+}
+生成token并且保存:user_59f1a22d19790
+用户资料:array(2) {
+  ["nickname"]=>
+  string(6) "jjhsxv"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/3f54343a18ff636e58a91e8dd73b7764.png"
+}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f19f6071ad3"
+  ["content"]=>
+  string(32) "qq自带的那个浏览器不行"
+}
+(fd:11)DAdonikaaaaaaaaaaa:{"type":"message","token":"user_59f19f6071ad3","content":"qq自带的那个浏览器不行"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f1a06f3af35"
+  ["content"]=>
+  string(15) "就是微信啊"
+}
+(fd:16)瀅逖:{"type":"message","token":"user_59f1a06f3af35","content":"就是微信啊"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f1a22d19790"
+  ["content"]=>
+  string(21) "哈哈哈，大家好"
+}
+(fd:17)jjhsxv:{"type":"message","token":"user_59f1a22d19790","content":"哈哈哈，大家好"}
+client-15 is closed
+
+array(2) {
+  ["nickname"]=>
+  string(12) "兔眠神_Mz"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/324ac3c951dccb31f3af6735f866911c.jpg"
+}
+[2017-10-26 16:52:23 *16438.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 89 byte failed, because connection[fd=15] is closed.
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f19f6071ad3"
+  ["content"]=>
+  string(6) "好啊"
+}
+(fd:11)DAdonikaaaaaaaaaaa:{"type":"message","token":"user_59f19f6071ad3","content":"好啊"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f1a06f3af35"
+  ["content"]=>
+  string(24) "就我的网名最好听"
+}
+(fd:16)瀅逖:{"type":"message","token":"user_59f1a06f3af35","content":"就我的网名最好听"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f1a22d19790"
+  ["content"]=>
+  string(9) "看不懂"
+}
+(fd:17)jjhsxv:{"type":"message","token":"user_59f1a22d19790","content":"看不懂"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f19f6071ad3"
+  ["content"]=>
+  string(3) "。"
+}
+(fd:11)DAdonikaaaaaaaaaaa:{"type":"message","token":"user_59f19f6071ad3","content":"。"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f19f6071ad3"
+  ["content"]=>
+  string(12) "     😂   "
+}
+(fd:11)DAdonikaaaaaaaaaaa:{"type":"message","token":"user_59f19f6071ad3","content":"     😂   "}
+client-18 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  NULL
+}
+生成token并且保存:user_59f1a2b1ce162
+用户资料:array(2) {
+  ["nickname"]=>
+  string(11) "_秦朝歌_"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/b1aee5d44205e9c6989a9f3dfc32dfaa.jpg"
+}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f1a22d19790"
+  ["content"]=>
+  string(18) "程序编辑不错"
+}
+(fd:17)jjhsxv:{"type":"message","token":"user_59f1a22d19790","content":"程序编辑不错"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f19f6071ad3"
+  ["content"]=>
+  string(12) "你是哪位"
+}
+(fd:11)DAdonikaaaaaaaaaaa:{"type":"message","token":"user_59f19f6071ad3","content":"你是哪位"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f19f6071ad3"
+  ["content"]=>
+  string(12) "报下名字"
+}
+(fd:11)DAdonikaaaaaaaaaaa:{"type":"message","token":"user_59f19f6071ad3","content":"报下名字"}
+client-18 is closed
+
+array(2) {
+  ["nickname"]=>
+  string(11) "_秦朝歌_"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/b1aee5d44205e9c6989a9f3dfc32dfaa.jpg"
+}
+[2017-10-26 16:54:34 *16438.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 88 byte failed, because connection[fd=18] is closed.
+client-19 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  NULL
+}
+生成token并且保存:user_59f1a2d9671c3
+用户资料:array(2) {
+  ["nickname"]=>
+  string(10) "心缘2333"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/bb3cb23d1111c5671a9f00405471cbc9.jpg"
+}
+PHP Fatal error:  Uncaught ErrorException: swoole_websocket_server::push(): the connected client of connection[20] is not a websocket client. in /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php:106
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'swoole_websocke...', '/data/wwwroot/l...', 106, Array)
+#1 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php(106): swoole_websocket_server->push(20, '{"type":"inform...')
+#2 [internal function]: App\Console\Commands\Chat->App\Console\Commands\{closure}(Object(swoole_websocket_server), Object(swoole_websocket_frame))
+#3 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php(133): swoole_http_server->start()
+#4 [internal function]: App\Console\Commands\Chat->handle()
+#5 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(29): call_user_func_array(Array, Array)
+#6 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminate/Container/Boun in /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php on line 106
+
+                                                                               
+  [Symfony\Component\Debug\Exception\FatalErrorException]                      
+  Uncaught ErrorException: swoole_websocket_server::push(): the connected cli  
+  ent of connection[20] is not a websocket client. in /data/wwwroot/laravel-s  
+  woole-chat/app/Console/Commands/Chat.php:106                                 
+  Stack trace:                                                                 
+  #0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->h  
+  andleError(2, 'swoole_websocke...', '/data/wwwroot/l...', 106, Array)        
+  #1 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php(106): sw  
+  oole_websocket_server->push(20, '{"type":"inform...')                        
+  #2 [internal function]: App\Console\Commands\Chat->App\Console\Commands\{cl  
+  osure}(Object(swoole_websocket_server), Object(swoole_websocket_frame))      
+  #3 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php(133): sw  
+  oole_http_server->start()                                                    
+  #4 [internal function]: App\Console\Commands\Chat->handle()                  
+  #5 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminat  
+  e/Container/BoundMethod.php(29): call_user_func_array(Array, Array)          
+  #6 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminat  
+  e/Container/Boun                                                             
+                                                                               
+
+[2017-10-26 16:54:53 *16438.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught ErrorException: swoole_websocket_server::push(): the connected client of connection[20] is not a websocket client. in /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php:106
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'swoole_websocke...', '/data/wwwroot/l...', 106, Array)
+#1 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php(106): swoole_websocket_server->push(20, '{"t
+[2017-10-26 16:54:53 $16428.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+client-20 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f1a2d9671c3"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(10) "心缘2333"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/bb3cb23d1111c5671a9f00405471cbc9.jpg"
+}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f1a22d19790"
+  ["content"]=>
+  string(9) "不认识"
+}
+(fd:17)jjhsxv:{"type":"message","token":"user_59f1a22d19790","content":"不认识"}
+client-17 is closed
+
+array(2) {
+  ["nickname"]=>
+  string(6) "jjhsxv"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/3f54343a18ff636e58a91e8dd73b7764.png"
+}
+[2017-10-26 16:55:11 *16460.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 74 byte failed, because connection[fd=17] is closed.
+client-16 is closed
+
+array(2) {
+  ["nickname"]=>
+  string(6) "姽风"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/9abf7d69a8c5f67692d25ed1c6a553a0.jpg"
+}
+[2017-10-26 16:55:48 *16460.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 80 byte failed, because connection[fd=16] is closed.
+client-21 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f1a06f3af35"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(6) "瀅逖"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/9148f7ecaa8e836ab8e05048e2022577.png"
+}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f1a06f3af35"
+  ["content"]=>
+  string(6) "嘻嘻"
+}
+(fd:21)瀅逖:{"type":"message","token":"user_59f1a06f3af35","content":"嘻嘻"}
+client-11 is closed
+
+NULL
+client-22 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  NULL
+}
+生成token并且保存:user_59f1a3607a3aa
+用户资料:array(2) {
+  ["nickname"]=>
+  string(2) "NG"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/7ddc9285096f12e33f0868ec78cbff83.jpg"
+}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f1a3607a3aa"
+  ["content"]=>
+  string(3) "。"
+}
+(fd:22)NG:{"type":"message","token":"user_59f1a3607a3aa","content":"。"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f1a3607a3aa"
+  ["content"]=>
+  string(15) "换网名之术"
+}
+(fd:22)NG:{"type":"message","token":"user_59f1a3607a3aa","content":"换网名之术"}
+client-22 is closed
+
+array(2) {
+  ["nickname"]=>
+  string(2) "NG"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/7ddc9285096f12e33f0868ec78cbff83.jpg"
+}
+[2017-10-26 16:57:33 *16460.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 70 byte failed, because connection[fd=22] is closed.
+client-23 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  NULL
+}
+生成token并且保存:user_59f1a37eb56b5
+用户资料:array(2) {
+  ["nickname"]=>
+  string(12) "程池_Irena"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/26a7516fc6c27d9ae47b147f71dc5101.jpg"
+}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f1a37eb56b5"
+  ["content"]=>
+  string(3) "换"
+}
+(fd:23)程池_Irena:{"type":"message","token":"user_59f1a37eb56b5","content":"换"}
+client-23 is closed
+
+array(2) {
+  ["nickname"]=>
+  string(12) "程池_Irena"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/26a7516fc6c27d9ae47b147f71dc5101.jpg"
+}
+[2017-10-26 16:57:43 *16460.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 86 byte failed, because connection[fd=23] is closed.
+client-24 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  NULL
+}
+PHP Fatal error:  Uncaught ErrorException: md5_file(https://image02.worldcosplay.net/uploads/2273/swdxsglagbrjhanddmimwwpbngedqlftyxpzhned-100.jpg): failed to open stream: Connection timed out in /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php:87
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'md5_file(https:...', '/data/wwwroot/l...', 87, Array)
+#1 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php(87): md5_file('https://image02...')
+#2 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminate/Cache/Repository.php(326): App\Console\Commands\Chat->App\Console\Commands\{closure}()
+#3 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminate/Cache/CacheManager.php(305): Illuminate\Cache\Repository->rememberForever('user_59f1a38a05...', Object(Closure))
+#4 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(221): Illuminate\Cache\CacheManager->__call('rememberForever' in /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php on line 87
+
+                                                                               
+  [Symfony\Component\Debug\Exception\FatalErrorException]                      
+  Uncaught ErrorException: md5_file(https://image02.worldcosplay.net/uploads/  
+  2273/swdxsglagbrjhanddmimwwpbngedqlftyxpzhned-100.jpg): failed to open stre  
+  am: Connection timed out in /data/wwwroot/laravel-swoole-chat/app/Console/C  
+  ommands/Chat.php:87                                                          
+  Stack trace:                                                                 
+  #0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->h  
+  andleError(2, 'md5_file(https:...', '/data/wwwroot/l...', 87, Array)         
+  #1 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php(87): md5  
+  _file('https://image02...')                                                  
+  #2 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminat  
+  e/Cache/Repository.php(326): App\Console\Commands\Chat->App\Console\Command  
+  s\{closure}()                                                                
+  #3 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminat  
+  e/Cache/CacheManager.php(305): Illuminate\Cache\Repository->rememberForever  
+  ('user_59f1a38a05...', Object(Closure))                                      
+  #4 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminat  
+  e/Support/Facades/Facade.php(221): Illuminate\Cache\CacheManager->__call('r  
+  ememberForever'                                                              
+                                                                               
+
+[2017-10-26 16:57:54 *16460.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught ErrorException: md5_file(https://image02.worldcosplay.net/uploads/2273/swdxsglagbrjhanddmimwwpbngedqlftyxpzhned-100.jpg): failed to open stream: Connection timed out in /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php:87
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'md5_file(https:...', '/data/wwwroot/l...', 87, Array)
+#1 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat
+[2017-10-26 16:57:54 $16428.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+client-24 is closed
+
+NULL
+client-25 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  NULL
+}
+生成token并且保存:user_59f1a39a15d4a
+用户资料:array(2) {
+  ["nickname"]=>
+  string(9) "桃源乡"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/88020945df52fb613298623a305937fc.jpg"
+}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f1a39a15d4a"
+  ["content"]=>
+  string(3) "换"
+}
+(fd:25)桃源乡:{"type":"message","token":"user_59f1a39a15d4a","content":"换"}
+client-25 is closed
+
+array(2) {
+  ["nickname"]=>
+  string(9) "桃源乡"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/88020945df52fb613298623a305937fc.jpg"
+}
+[2017-10-26 16:58:19 *16461.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 86 byte failed, because connection[fd=25] is closed.
+client-26 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  NULL
+}
+生成token并且保存:user_59f1a3ac2c8e7
+用户资料:array(2) {
+  ["nickname"]=>
+  string(12) "三隻小貓"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/f2a4e929e1df5fa9afb5d8b5b091adb5.png"
+}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f1a3ac2c8e7"
+  ["content"]=>
+  string(3) "换"
+}
+(fd:26)三隻小貓:{"type":"message","token":"user_59f1a3ac2c8e7","content":"换"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f1a3ac2c8e7"
+  ["content"]=>
+  string(15) "这个可以的"
+}
+(fd:26)三隻小貓:{"type":"message","token":"user_59f1a3ac2c8e7","content":"这个可以的"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f189d91d21d"
+  ["content"]=>
+  string(1) "."
+}
+(fd:2)岸_汐汐哈哈:{"type":"message","token":"user_59f189d91d21d","content":"."}
+client-27 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  NULL
+}
+PHP Fatal error:  Uncaught ErrorException: md5_file(https://image01.worldcosplay.net/uploads/44890/wagtpphovfyaesqfpplfqpkonembtzghnjdwowra-100.jpg): failed to open stream: Connection timed out in /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php:87
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'md5_file(https:...', '/data/wwwroot/l...', 87, Array)
+#1 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php(87): md5_file('https://image01...')
+#2 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminate/Cache/Repository.php(326): App\Console\Commands\Chat->App\Console\Commands\{closure}()
+#3 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminate/Cache/CacheManager.php(305): Illuminate\Cache\Repository->rememberForever('user_59f1a3da4e...', Object(Closure))
+#4 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(221): Illuminate\Cache\CacheManager->__call('rememberForever in /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php on line 87
+
+                                                                               
+  [Symfony\Component\Debug\Exception\FatalErrorException]                      
+  Uncaught ErrorException: md5_file(https://image01.worldcosplay.net/uploads/  
+  44890/wagtpphovfyaesqfpplfqpkonembtzghnjdwowra-100.jpg): failed to open str  
+  eam: Connection timed out in /data/wwwroot/laravel-swoole-chat/app/Console/  
+  Commands/Chat.php:87                                                         
+  Stack trace:                                                                 
+  #0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->h  
+  andleError(2, 'md5_file(https:...', '/data/wwwroot/l...', 87, Array)         
+  #1 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php(87): md5  
+  _file('https://image01...')                                                  
+  #2 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminat  
+  e/Cache/Repository.php(326): App\Console\Commands\Chat->App\Console\Command  
+  s\{closure}()                                                                
+  #3 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminat  
+  e/Cache/CacheManager.php(305): Illuminate\Cache\Repository->rememberForever  
+  ('user_59f1a3da4e...', Object(Closure))                                      
+  #4 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminat  
+  e/Support/Facades/Facade.php(221): Illuminate\Cache\CacheManager->__call('r  
+  ememberForever                                                               
+                                                                               
+
+[2017-10-26 16:59:14 *16461.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught ErrorException: md5_file(https://image01.worldcosplay.net/uploads/44890/wagtpphovfyaesqfpplfqpkonembtzghnjdwowra-100.jpg): failed to open stream: Connection timed out in /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php:87
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'md5_file(https:...', '/data/wwwroot/l...', 87, Array)
+#1 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Cha
+[2017-10-26 16:59:14 $16428.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
