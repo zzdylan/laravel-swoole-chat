@@ -23,5 +23,4 @@ class ChatController extends Controller {
     public function getCache(){
         dd(Cache::get('users.101.87.74.202'));
     }
-    
 }
