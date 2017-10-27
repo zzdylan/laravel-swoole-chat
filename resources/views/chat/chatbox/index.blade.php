@@ -22,12 +22,41 @@
         </main>
         <footer class="H-flexbox-horizontal">
             <input oninput="checkValueEmpty(this)" onclick="scrollToBottom()" id="text" type="text" class="H-textbox H-vertical-align-middle H-vertical-middle H-font-size-14 H-flex-item H-box-sizing-border-box H-border-none H-border-vertical-top-after H-padding-12">
+<!--            <button id="chice_file" class="H-button H-font-size-15 H-outline-none H-padding-vertical-both-8 H-padding-horizontal-both-20 H-theme-background-color6 H-theme-font-color-white H-theme-border-color6 H-theme-border-color6-click H-theme-background-color6-click H-theme-font-color6-click">选择图片</button>-->
+            <input id="file" accept="image/*" type="file" style="display: none">
             <button onclick="song()" id="send" disabled class="H-button H-font-size-14 H-border-none H-padding-vertical-both-12">发送</button>
         </footer>
         <script src="{{asset('Hui/js/H.js')}}" type="text/javascript"></script>
-        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-<!--        <script src="https://cdn.bootcss.com/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>-->
+<!--        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>-->
+        <script src="https://cdn.bootcss.com/zepto/1.0rc1/zepto.min.js"></script>
         <script type="text/javascript">
+                if (!window.WebSocket) {
+                    alert("童鞋, 你的浏览器不支持该功能啊");
+                }
+                $('#chice_file').click(function () {
+                    document.getElementById("file").click();
+                });
+                //var data = {type: 'image', token: localStorage.getItem('token'), content: binaryString};
+//                reader.onload = function () {
+//                    const resultArray = new Int8Array(reader.result);
+//                    document.getElementById('result').innerHTML = resultArray;
+//                };
+                $('#file').change(function () {
+                    var inputElement = document.getElementById("file");
+                    var file = inputElement.files[0];
+                    var reader = new FileReader();
+                    //以二进制形式读取文件
+                    reader.readAsArrayBuffer(file);
+                    //文件读取完毕后该函数响应
+                    reader.onload = function loaded(evt) {
+                        var binaryString = evt.target.result;
+                        console.log(binaryString);
+                        //发送文件
+                        var data = {type: 'image', token: localStorage.getItem('token'), content: binaryString};
+                        console.log(data);
+                        websocket.send(binaryString);
+                    }
+                });
                 /* 处理 Android 4.4 以下版本兼容性问题 */
                 function resizeWidth() {
                     H.cssText(".H-chatbox-content", "max-width:" + (document.body.clientWidth - 60 * 2) + "px");
@@ -35,6 +64,7 @@
                 resizeWidth();
                 window.onresize = function () {
                     resizeWidth();
+                    scrollToBottom();
                 }
                 document.onkeydown = function () {                //网页内按下回车触发
                     if (event.keyCode == 13)
@@ -61,7 +91,7 @@
                      */
                     if (websocket.readyState == 1) {
                         msg.innerHTML += '<div style="text-align:center">连接成功...正在进入聊天室...</div>';
-                    }else{
+                    } else {
                         msg.innerHTML += '<div style="text-align:center">连接失败</div>';
                     }
                 }
@@ -70,6 +100,7 @@
                     var jsonData = JSON.parse(evt.data);
                     if (jsonData.type == 'inform') {
                         msg.innerHTML += '<div style="text-align:center">' + jsonData.content + '</div>';
+                        scrollToBottom();
                     } else if (jsonData.type == 'message') {
                         msg.innerHTML += msgHtml(jsonData.msg, jsonData.nickname, jsonData.avatar, jsonData.is_own);
                         scrollToBottom();
@@ -124,10 +155,10 @@
                 //滚动到底部
                 function scrollToBottom() {
                     var main = document.getElementById('main');
-                    main.scrollTop = main.scrollHeight + main.offsetHeight;
+                    main.scrollTop = main.scrollHeight;
                 }
                 //发送
-                function song() {
+                function song(e) {
                     var text = $('#text').val();
                     $('#text').val('').focus();
                     $('#send').attr('disabled', true).removeClass('H-theme-background-color1');

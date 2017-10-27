@@ -2341,3 +2341,4246 @@ Stack trace:
 #0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'md5_file(https:...', '/data/wwwroot/l...', 87, Array)
 #1 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Cha
 [2017-10-26 16:59:14 $16428.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+server starting at 9502 port...
+client-1 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f1c70d397f6"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(15) "黑衣君莫笑"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/cdefacdfadd3bd0093f8db243f5e9d8f.jpg"
+}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f1c70d397f6"
+  ["content"]=>
+  string(1) "w"
+}
+(fd:1)黑衣君莫笑:{"type":"message","token":"user_59f1c70d397f6","content":"w"}
+client-1 is closed
+
+NULL
+[2017-10-26 22:38:30 $2301.0]	WARNING	swSignal_callback: signal[1] callback is null.
+[2017-10-26 22:38:30 #2285.1]	WARNING	swSignalfd_onSignal: signal[1] callback is null.
+[2017-10-26 22:38:30 *2303.0]	WARNING	swSignalfd_onSignal: signal[1] callback is null.
+client-2 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f1c70d397f6"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(15) "黑衣君莫笑"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/cdefacdfadd3bd0093f8db243f5e9d8f.jpg"
+}
+client-2 is closed
+
+array(2) {
+  ["nickname"]=>
+  string(9) "浩华德"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/b6e8865a3702b72266f9dde4b1a53379.png"
+}
+[2017-10-26 22:38:42 *2303.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 86 byte failed, because connection[fd=2] is closed.
+client-3 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f1a3ac2c8e7"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(12) "三隻小貓"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/f2a4e929e1df5fa9afb5d8b5b091adb5.png"
+}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f1a3ac2c8e7"
+  ["content"]=>
+  string(3) "。"
+}
+(fd:3)三隻小貓:{"type":"message","token":"user_59f1a3ac2c8e7","content":"。"}
+client-3 is closed
+
+array(2) {
+  ["nickname"]=>
+  string(12) "CZRJJSMT-IVY"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/a4b4907f8c53fa076e024501804fda28.jpg"
+}
+[2017-10-26 22:39:20 *2303.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 80 byte failed, because connection[fd=3] is closed.
+client-4 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f1dc096d241"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(6) "歆嫀"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/d444c776a6beeddf8a01e32a99c5d53a.png"
+}
+client-5 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f1a3ac2c8e7"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(12) "三隻小貓"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/f2a4e929e1df5fa9afb5d8b5b091adb5.png"
+}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f1a3ac2c8e7"
+  ["content"]=>
+  string(5) "😁 "
+}
+(fd:5)三隻小貓:{"type":"message","token":"user_59f1a3ac2c8e7","content":"😁 "}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f1a3ac2c8e7"
+  ["content"]=>
+  string(1) " "
+}
+(fd:5)三隻小貓:{"type":"message","token":"user_59f1a3ac2c8e7","content":" "}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f1a3ac2c8e7"
+  ["content"]=>
+  string(22) "     😃     😄    "
+}
+(fd:5)三隻小貓:{"type":"message","token":"user_59f1a3ac2c8e7","content":"     😃     😄    "}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f1a3ac2c8e7"
+  ["content"]=>
+  string(38) "       👿  👿             😊    "
+}
+(fd:5)三隻小貓:{"type":"message","token":"user_59f1a3ac2c8e7","content":"       👿  👿             😊    "}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f1a3ac2c8e7"
+  ["content"]=>
+  string(2) "yy"
+}
+(fd:5)三隻小貓:{"type":"message","token":"user_59f1a3ac2c8e7","content":"yy"}
+client-5 is closed
+
+array(2) {
+  ["nickname"]=>
+  string(18) "天真他本家_qq"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/76d32005810e303fbc55b733abefaa68.jpg"
+}
+[2017-10-26 23:10:27 *2303.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 101 byte failed, because connection[fd=5] is closed.
+client-6 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  NULL
+}
+生成token并且保存:user_59f1fb67a25bb
+用户资料:array(2) {
+  ["nickname"]=>
+  string(18) "黑羽快斗mimosa"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/5b71f6297e915cd5cbade32d4f49922b.png"
+}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f1fb67a25bb"
+  ["content"]=>
+  string(2) "en"
+}
+(fd:6)黑羽快斗mimosa:{"type":"message","token":"user_59f1fb67a25bb","content":"en"}
+client-6 is closed
+
+array(2) {
+  ["nickname"]=>
+  string(18) "黑羽快斗mimosa"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/5b71f6297e915cd5cbade32d4f49922b.png"
+}
+[2017-10-26 23:12:53 *2303.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 98 byte failed, because connection[fd=6] is closed.
+client-7 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f1a3ac2c8e7"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(12) "三隻小貓"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/f2a4e929e1df5fa9afb5d8b5b091adb5.png"
+}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f1a3ac2c8e7"
+  ["content"]=>
+  string(6) "测试"
+}
+(fd:7)三隻小貓:{"type":"message","token":"user_59f1a3ac2c8e7","content":"测试"}
+client-7 is closed
+
+array(2) {
+  ["nickname"]=>
+  string(8) "__嘲月"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/f5c3c6b9cff49269f7a04f408fcf427f.png"
+}
+[2017-10-26 23:19:41 *2303.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 82 byte failed, because connection[fd=7] is closed.
+client-8 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  NULL
+}
+生成token并且保存:user_59f27a8eb7c36
+用户资料:array(2) {
+  ["nickname"]=>
+  string(9) "宏电子"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/0f64c0bee732eb82bb4b67779158d63d.jpg"
+}
+client-9 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f1a3ac2c8e7"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(12) "三隻小貓"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/f2a4e929e1df5fa9afb5d8b5b091adb5.png"
+}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f1a3ac2c8e7"
+  ["content"]=>
+  string(3) "。"
+}
+(fd:9)三隻小貓:{"type":"message","token":"user_59f1a3ac2c8e7","content":"。"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f1a3ac2c8e7"
+  ["content"]=>
+  string(15) "嗯⊙∀⊙！"
+}
+(fd:9)三隻小貓:{"type":"message","token":"user_59f1a3ac2c8e7","content":"嗯⊙∀⊙！"}
+client-9 is closed
+
+array(2) {
+  ["nickname"]=>
+  string(27) "U酱SAMA( *・ω・)✄_qq"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/1811019cf7eb6fe00e4bda1840a1fc05.jpg"
+}
+[2017-10-27 08:15:50 *2303.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 115 byte failed, because connection[fd=9] is closed.
+client-8 is closed
+
+array(2) {
+  ["nickname"]=>
+  string(9) "宏电子"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/0f64c0bee732eb82bb4b67779158d63d.jpg"
+}
+[2017-10-27 08:16:31 *2303.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 86 byte failed, because connection[fd=8] is closed.
+client-4 is closed
+
+array(2) {
+  ["nickname"]=>
+  string(12) "努力吧宁"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/ca0fb9570cac233aa2c1d0d6bc62d17b.png"
+}
+[2017-10-27 08:31:20 *2303.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 92 byte failed, because connection[fd=4] is closed.
+client-10 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f1e8cc9240c"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(11) "-玖玖子-"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/9838265492cf40411019f5b04ee95581.jpg"
+}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f1e8cc9240c"
+  ["content"]=>
+  string(12) "天空哦哦"
+}
+(fd:10)-玖玖子-:{"type":"message","token":"user_59f1e8cc9240c","content":"天空哦哦"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f1e8cc9240c"
+  ["content"]=>
+  string(13) "8轮头木木"
+}
+(fd:10)-玖玖子-:{"type":"message","token":"user_59f1e8cc9240c","content":"8轮头木木"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f1e8cc9240c"
+  ["content"]=>
+  string(15) "偷渡饿了就"
+}
+(fd:10)-玖玖子-:{"type":"message","token":"user_59f1e8cc9240c","content":"偷渡饿了就"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f1e8cc9240c"
+  ["content"]=>
+  string(12) "乐克乐克"
+}
+(fd:10)-玖玖子-:{"type":"message","token":"user_59f1e8cc9240c","content":"乐克乐克"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f1e8cc9240c"
+  ["content"]=>
+  string(9) "头恶露"
+}
+(fd:10)-玖玖子-:{"type":"message","token":"user_59f1e8cc9240c","content":"头恶露"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f1e8cc9240c"
+  ["content"]=>
+  string(15) "特累阿克拉"
+}
+(fd:10)-玖玖子-:{"type":"message","token":"user_59f1e8cc9240c","content":"特累阿克拉"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f1e8cc9240c"
+  ["content"]=>
+  string(15) "童乐克乐克"
+}
+(fd:10)-玖玖子-:{"type":"message","token":"user_59f1e8cc9240c","content":"童乐克乐克"}
+client-11 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f1e8cc9240c"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(11) "-玖玖子-"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/9838265492cf40411019f5b04ee95581.jpg"
+}
+client-10 is closed
+
+array(2) {
+  ["nickname"]=>
+  string(12) "陌莫_Milky"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/e5e38e84a08de3529abce2ee50ed5e71.jpg"
+}
+[2017-10-27 09:10:31 *2303.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 86 byte failed, because connection[fd=10] is closed.
+client-11 is closed
+
+NULL
+client-12 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f189d91d21d"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(16) "岸_汐汐哈哈"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/56145c70f93c3420ffc5bfb172fc25ac.jpg"
+}
+client-12 is closed
+
+array(2) {
+  ["nickname"]=>
+  string(6) "瀅逖"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/9148f7ecaa8e836ab8e05048e2022577.png"
+}
+[2017-10-27 09:57:04 *2303.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 80 byte failed, because connection[fd=12] is closed.
+client-13 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f189d91d21d"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(16) "岸_汐汐哈哈"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/56145c70f93c3420ffc5bfb172fc25ac.jpg"
+}
+client-13 is closed
+
+array(2) {
+  ["nickname"]=>
+  string(11) "帅比av酱"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/e4b80b85dd3e8d390168d86fa5d84bac.jpg"
+}
+[2017-10-27 09:58:24 *2303.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 88 byte failed, because connection[fd=13] is closed.
+client-14 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f189d91d21d"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(16) "岸_汐汐哈哈"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/56145c70f93c3420ffc5bfb172fc25ac.jpg"
+}
+client-15 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f1a3ac2c8e7"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(12) "三隻小貓"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/f2a4e929e1df5fa9afb5d8b5b091adb5.png"
+}
+client-14 is closed
+
+NULL
+client-16 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f189d91d21d"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(16) "岸_汐汐哈哈"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/56145c70f93c3420ffc5bfb172fc25ac.jpg"
+}
+client-16 is closed
+
+array(2) {
+  ["nickname"]=>
+  string(6) "姽风"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/9abf7d69a8c5f67692d25ed1c6a553a0.jpg"
+}
+[2017-10-27 10:03:44 *2303.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 80 byte failed, because connection[fd=16] is closed.
+client-17 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f189d91d21d"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(16) "岸_汐汐哈哈"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/56145c70f93c3420ffc5bfb172fc25ac.jpg"
+}
+client-17 is closed
+
+array(2) {
+  ["nickname"]=>
+  string(6) "jjhsxv"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/3f54343a18ff636e58a91e8dd73b7764.png"
+}
+[2017-10-27 10:04:22 *2303.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 74 byte failed, because connection[fd=17] is closed.
+client-18 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f189d91d21d"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(16) "岸_汐汐哈哈"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/56145c70f93c3420ffc5bfb172fc25ac.jpg"
+}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f189d91d21d"
+  ["content"]=>
+  string(28) ":smile: Hello :smile::angry:"
+}
+(fd:18)岸_汐汐哈哈:{"type":"message","token":"user_59f189d91d21d","content":":smile: Hello :smile::angry:"}
+client-15 is closed
+
+array(2) {
+  ["nickname"]=>
+  string(12) "兔眠神_Mz"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/324ac3c951dccb31f3af6735f866911c.jpg"
+}
+[2017-10-27 10:06:14 *2303.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 89 byte failed, because connection[fd=15] is closed.
+client-19 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f1a3ac2c8e7"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(12) "三隻小貓"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/f2a4e929e1df5fa9afb5d8b5b091adb5.png"
+}
+client-18 is closed
+
+array(2) {
+  ["nickname"]=>
+  string(11) "_秦朝歌_"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/b1aee5d44205e9c6989a9f3dfc32dfaa.jpg"
+}
+[2017-10-27 10:13:20 *2303.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 88 byte failed, because connection[fd=18] is closed.
+client-20 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f189d91d21d"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(16) "岸_汐汐哈哈"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/56145c70f93c3420ffc5bfb172fc25ac.jpg"
+}
+client-20 is closed
+
+NULL
+client-21 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f189d91d21d"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(16) "岸_汐汐哈哈"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/56145c70f93c3420ffc5bfb172fc25ac.jpg"
+}
+client-19 is closed
+
+array(2) {
+  ["nickname"]=>
+  string(10) "心缘2333"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/bb3cb23d1111c5671a9f00405471cbc9.jpg"
+}
+[2017-10-27 10:15:53 *2303.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 84 byte failed, because connection[fd=19] is closed.
+client-21 is closed
+
+NULL
+client-22 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f189d91d21d"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(16) "岸_汐汐哈哈"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/56145c70f93c3420ffc5bfb172fc25ac.jpg"
+}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f189d91d21d"
+  ["content"]=>
+  string(2) "zz"
+}
+(fd:22)岸_汐汐哈哈:{"type":"message","token":"user_59f189d91d21d","content":"zz"}
+client-23 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  NULL
+}
+生成token并且保存:user_59f29b807f265
+用户资料:array(2) {
+  ["nickname"]=>
+  string(15) "蜜糖果果www"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/ce3718fa249200e715a3551165731a0f.png"
+}
+[2017-10-27 10:35:57 *2303.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 55 byte failed, because connection[fd=23] is closed.
+[2017-10-27 10:35:57 *2303.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 101 byte failed, because connection[fd=23] is closed.
+client-23 is closed
+
+array(2) {
+  ["nickname"]=>
+  string(15) "蜜糖果果www"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/ce3718fa249200e715a3551165731a0f.png"
+}
+[2017-10-27 10:35:57 *2303.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 95 byte failed, because connection[fd=23] is closed.
+client-24 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f1a3ac2c8e7"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(12) "三隻小貓"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/f2a4e929e1df5fa9afb5d8b5b091adb5.png"
+}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f1a3ac2c8e7"
+  ["content"]=>
+  string(3) "。"
+}
+(fd:24)三隻小貓:{"type":"message","token":"user_59f1a3ac2c8e7","content":"。"}
+client-25 is connected
+
+client-24 is closed
+
+NULL
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f189d91d21d"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(16) "岸_汐汐哈哈"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/56145c70f93c3420ffc5bfb172fc25ac.jpg"
+}
+client-22 is closed
+
+array(2) {
+  ["nickname"]=>
+  string(2) "NG"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/7ddc9285096f12e33f0868ec78cbff83.jpg"
+}
+[2017-10-27 10:44:06 *2303.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 70 byte failed, because connection[fd=22] is closed.
+client-25 is closed
+
+array(2) {
+  ["nickname"]=>
+  string(9) "桃源乡"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/88020945df52fb613298623a305937fc.jpg"
+}
+[2017-10-27 10:44:34 *2303.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 86 byte failed, because connection[fd=25] is closed.
+client-26 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f189d91d21d"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(16) "岸_汐汐哈哈"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/56145c70f93c3420ffc5bfb172fc25ac.jpg"
+}
+client-26 is closed
+
+array(2) {
+  ["nickname"]=>
+  string(12) "三隻小貓"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/f2a4e929e1df5fa9afb5d8b5b091adb5.png"
+}
+[2017-10-27 10:44:56 *2303.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 92 byte failed, because connection[fd=26] is closed.
+client-27 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f189d91d21d"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(16) "岸_汐汐哈哈"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/56145c70f93c3420ffc5bfb172fc25ac.jpg"
+}
+client-27 is closed
+
+NULL
+client-28 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f189d91d21d"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(16) "岸_汐汐哈哈"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/56145c70f93c3420ffc5bfb172fc25ac.jpg"
+}
+client-28 is closed
+
+NULL
+client-29 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f189d91d21d"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(16) "岸_汐汐哈哈"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/56145c70f93c3420ffc5bfb172fc25ac.jpg"
+}
+client-29 is closed
+
+array(2) {
+  ["nickname"]=>
+  string(7) "SC_Jian"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/9f9fd751a928a303422152943d891391.png"
+}
+[2017-10-27 10:47:53 *2303.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 75 byte failed, because connection[fd=29] is closed.
+client-30 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f189d91d21d"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(16) "岸_汐汐哈哈"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/56145c70f93c3420ffc5bfb172fc25ac.jpg"
+}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f189d91d21d"
+  ["content"]=>
+  string(1) "z"
+}
+(fd:30)岸_汐汐哈哈:{"type":"message","token":"user_59f189d91d21d","content":"z"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f189d91d21d"
+  ["content"]=>
+  string(7) "sdfasdf"
+}
+(fd:30)岸_汐汐哈哈:{"type":"message","token":"user_59f189d91d21d","content":"sdfasdf"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f189d91d21d"
+  ["content"]=>
+  string(4) "2rew"
+}
+(fd:30)岸_汐汐哈哈:{"type":"message","token":"user_59f189d91d21d","content":"2rew"}
+client-31 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f1a3ac2c8e7"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(12) "三隻小貓"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/f2a4e929e1df5fa9afb5d8b5b091adb5.png"
+}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f1a3ac2c8e7"
+  ["content"]=>
+  string(3) "。"
+}
+(fd:31)三隻小貓:{"type":"message","token":"user_59f1a3ac2c8e7","content":"。"}
+client-31 is closed
+
+NULL
+client-32 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f1b2d1cd039"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(17) "-七祀祀祀儿-"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/3773e6779a383f08d09c3fbe964c9985.jpg"
+}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f1b2d1cd039"
+  ["content"]=>
+  string(3) "。"
+}
+(fd:32)-七祀祀祀儿-:{"type":"message","token":"user_59f1b2d1cd039","content":"。"}
+client-32 is closed
+
+NULL
+client-30 is closed
+
+array(2) {
+  ["nickname"]=>
+  string(8) "zlinling"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/6697fab25c30d6b570ed3702753e769f.png"
+}
+[2017-10-27 10:49:06 *2303.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 76 byte failed, because connection[fd=30] is closed.
+client-33 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f1e8cc9240c"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(11) "-玖玖子-"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/9838265492cf40411019f5b04ee95581.jpg"
+}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f1e8cc9240c"
+  ["content"]=>
+  string(1) " "
+}
+(fd:33)-玖玖子-:{"type":"message","token":"user_59f1e8cc9240c","content":" "}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f1e8cc9240c"
+  ["content"]=>
+  string(1) " "
+}
+(fd:33)-玖玖子-:{"type":"message","token":"user_59f1e8cc9240c","content":" "}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f1e8cc9240c"
+  ["content"]=>
+  string(8) "        "
+}
+(fd:33)-玖玖子-:{"type":"message","token":"user_59f1e8cc9240c","content":"        "}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f1e8cc9240c"
+  ["content"]=>
+  string(18) "٩(๑òωó๑)۶"
+}
+(fd:33)-玖玖子-:{"type":"message","token":"user_59f1e8cc9240c","content":"٩(๑òωó๑)۶"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f1e8cc9240c"
+  ["content"]=>
+  string(15) "玩LOL哦哦咯"
+}
+(fd:33)-玖玖子-:{"type":"message","token":"user_59f1e8cc9240c","content":"玩LOL哦哦咯"}
+client-33 is closed
+
+NULL
+client-34 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f19d40575bd"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(19) "络楼_需要补脑"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/849b25a373de605e5daf1d9527bc712d.jpg"
+}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f19d40575bd"
+  ["content"]=>
+  string(52) "😁😂😃😄👿😉😌😔😷😏😒😘😚"
+}
+(fd:34)络楼_需要补脑:{"type":"message","token":"user_59f19d40575bd","content":"😁😂😃😄👿😉😌😔😷😏😒😘😚"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f19d40575bd"
+  ["content"]=>
+  string(32) "😪😪😰😞😏😒😃😄"
+}
+(fd:34)络楼_需要补脑:{"type":"message","token":"user_59f19d40575bd","content":"😪😪😰😞😏😒😃😄"}
+client-35 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f1a3ac2c8e7"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(12) "三隻小貓"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/f2a4e929e1df5fa9afb5d8b5b091adb5.png"
+}
+client-35 is closed
+
+array(2) {
+  ["nickname"]=>
+  string(6) "弱酸"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/097300b9297efe9f69e116960719e29b.jpg"
+}
+[2017-10-27 11:03:40 *2303.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 80 byte failed, because connection[fd=35] is closed.
+client-36 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f189d91d21d"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(16) "岸_汐汐哈哈"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/56145c70f93c3420ffc5bfb172fc25ac.jpg"
+}
+client-36 is closed
+
+NULL
+client-37 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f189d91d21d"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(16) "岸_汐汐哈哈"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/56145c70f93c3420ffc5bfb172fc25ac.jpg"
+}
+client-37 is closed
+
+NULL
+client-38 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f189d91d21d"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(16) "岸_汐汐哈哈"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/56145c70f93c3420ffc5bfb172fc25ac.jpg"
+}
+client-39 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f1a3ac2c8e7"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(12) "三隻小貓"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/f2a4e929e1df5fa9afb5d8b5b091adb5.png"
+}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f189d91d21d"
+  ["content"]=>
+  string(1) "z"
+}
+(fd:38)岸_汐汐哈哈:{"type":"message","token":"user_59f189d91d21d","content":"z"}
+client-38 is closed
+
+array(2) {
+  ["nickname"]=>
+  string(15) "LOVE冰冰LOVE8"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/070196acace53add7ff69a108eefc0b2.png"
+}
+[2017-10-27 11:11:29 *2303.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 89 byte failed, because connection[fd=38] is closed.
+client-40 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f189d91d21d"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(16) "岸_汐汐哈哈"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/56145c70f93c3420ffc5bfb172fc25ac.jpg"
+}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f189d91d21d"
+  ["content"]=>
+  string(1) "z"
+}
+(fd:40)岸_汐汐哈哈:{"type":"message","token":"user_59f189d91d21d","content":"z"}
+client-40 is closed
+
+NULL
+client-41 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  NULL
+}
+生成token并且保存:user_59f2a546b458b
+用户资料:array(2) {
+  ["nickname"]=>
+  string(6) "罗婕"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/ab6992a1c2ddd07c3d82bc7921a68a28.jpg"
+}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f2a546b458b"
+  ["content"]=>
+  string(2) "zz"
+}
+(fd:41)罗婕:{"type":"message","token":"user_59f2a546b458b","content":"zz"}
+client-42 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f1e8cc9240c"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(11) "-玖玖子-"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/9838265492cf40411019f5b04ee95581.jpg"
+}
+client-43 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f1e8cc9240c"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(11) "-玖玖子-"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/9838265492cf40411019f5b04ee95581.jpg"
+}
+client-44 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f17ab571508"
+}
+userInfo
+NULL
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f17ab571508"
+  ["content"]=>
+  string(4) "😬"
+}
+(fd:44):{"type":"message","token":"user_59f17ab571508","content":"😬"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f17ab571508"
+  ["content"]=>
+  string(4) "😀"
+}
+(fd:44):{"type":"message","token":"user_59f17ab571508","content":"😀"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f17ab571508"
+  ["content"]=>
+  string(4) "😂"
+}
+(fd:44):{"type":"message","token":"user_59f17ab571508","content":"😂"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f2a546b458b"
+  ["content"]=>
+  string(1) "f"
+}
+(fd:41)罗婕:{"type":"message","token":"user_59f2a546b458b","content":"f"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f2a546b458b"
+  ["content"]=>
+  string(2) "zz"
+}
+(fd:41)罗婕:{"type":"message","token":"user_59f2a546b458b","content":"zz"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f17ab571508"
+  ["content"]=>
+  string(4) "😂"
+}
+(fd:44):{"type":"message","token":"user_59f17ab571508","content":"😂"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f1a3ac2c8e7"
+  ["content"]=>
+  string(59) "😁       😁  😁  😁 😁    😁              😍 "
+}
+(fd:39)三隻小貓:{"type":"message","token":"user_59f1a3ac2c8e7","content":"😁       😁  😁  😁 😁    😁              😍 "}
+client-44 is closed
+
+NULL
+client-45 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  NULL
+}
+生成token并且保存:user_59f2a67761fd8
+用户资料:array(2) {
+  ["nickname"]=>
+  string(14) "Sherry_芷樱_"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/198a0b8c5e459e6c408f7b6152309aa4.jpg"
+}
+[2017-10-27 11:22:50 *2303.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 94 byte failed, because connection[fd=39] is closed.
+client-39 is closed
+
+NULL
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  NULL
+  ["content"]=>
+  string(4) "😂"
+}
+(fd:45):{"type":"message","token":null,"content":"😂"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f2a67761fd8"
+  ["content"]=>
+  string(4) "😂"
+}
+(fd:45)Sherry_芷樱_:{"type":"message","token":"user_59f2a67761fd8","content":"😂"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f2a67761fd8"
+  ["content"]=>
+  string(4) "😀"
+}
+(fd:45)Sherry_芷樱_:{"type":"message","token":"user_59f2a67761fd8","content":"😀"}
+client-46 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f1a3ac2c8e7"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(12) "三隻小貓"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/f2a4e929e1df5fa9afb5d8b5b091adb5.png"
+}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f1a3ac2c8e7"
+  ["content"]=>
+  string(17) "     😁   😁 "
+}
+(fd:46)三隻小貓:{"type":"message","token":"user_59f1a3ac2c8e7","content":"     😁   😁 "}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f1a3ac2c8e7"
+  ["content"]=>
+  string(11) "    😊   "
+}
+(fd:46)三隻小貓:{"type":"message","token":"user_59f1a3ac2c8e7","content":"    😊   "}
+client-47 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f2a546b458b"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(6) "罗婕"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/ab6992a1c2ddd07c3d82bc7921a68a28.jpg"
+}
+client-47 is closed
+
+NULL
+client-48 is connected
+
+client-49 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f2a546b458b"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(6) "罗婕"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/ab6992a1c2ddd07c3d82bc7921a68a28.jpg"
+}
+[2017-10-27 11:27:52 *2303.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 86 byte failed, because connection[fd=48] is closed.
+client-48 is closed
+
+NULL
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f2a546b458b"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(6) "罗婕"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/ab6992a1c2ddd07c3d82bc7921a68a28.jpg"
+}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f2a546b458b"
+  ["content"]=>
+  string(2) "z\"
+}
+(fd:49)罗婕:{"type":"message","token":"user_59f2a546b458b","content":"z\\"}
+client-46 is closed
+
+array(2) {
+  ["nickname"]=>
+  string(5) "Rombr"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/02caf715bd9af18a6b88c8856586b702.jpg"
+}
+[2017-10-27 11:28:05 *2303.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 73 byte failed, because connection[fd=46] is closed.
+client-49 is closed
+
+NULL
+client-41 is closed
+
+array(2) {
+  ["nickname"]=>
+  string(6) "罗婕"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/ab6992a1c2ddd07c3d82bc7921a68a28.jpg"
+}
+[2017-10-27 11:44:52 *2303.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 80 byte failed, because connection[fd=41] is closed.
+client-50 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f2a546b458b"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(6) "罗婕"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/ab6992a1c2ddd07c3d82bc7921a68a28.jpg"
+}
+client-51 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  NULL
+}
+PHP Fatal error:  Uncaught ErrorException: md5_file(/Public/Image/user_pic_fat.png): failed to open stream: No such file or directory in /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php:87
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'md5_file(/Publi...', '/data/wwwroot/l...', 87, Array)
+#1 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php(87): md5_file('/Public/Image/u...')
+#2 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminate/Cache/Repository.php(326): App\Console\Commands\Chat->App\Console\Commands\{closure}()
+#3 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminate/Cache/CacheManager.php(305): Illuminate\Cache\Repository->rememberForever('user_59f2ac01e9...', Object(Closure))
+#4 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(221): Illuminate\Cache\CacheManager->__call('rememberForever', Array)
+#5 /data/wwwroot/laravel-swoole-chat/app/Console/C in /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php on line 87
+
+                                                                               
+  [Symfony\Component\Debug\Exception\FatalErrorException]                      
+  Uncaught ErrorException: md5_file(/Public/Image/user_pic_fat.png): failed t  
+  o open stream: No such file or directory in /data/wwwroot/laravel-swoole-ch  
+  at/app/Console/Commands/Chat.php:87                                          
+  Stack trace:                                                                 
+  #0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->h  
+  andleError(2, 'md5_file(/Publi...', '/data/wwwroot/l...', 87, Array)         
+  #1 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php(87): md5  
+  _file('/Public/Image/u...')                                                  
+  #2 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminat  
+  e/Cache/Repository.php(326): App\Console\Commands\Chat->App\Console\Command  
+  s\{closure}()                                                                
+  #3 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminat  
+  e/Cache/CacheManager.php(305): Illuminate\Cache\Repository->rememberForever  
+  ('user_59f2ac01e9...', Object(Closure))                                      
+  #4 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminat  
+  e/Support/Facades/Facade.php(221): Illuminate\Cache\CacheManager->__call('r  
+  ememberForever', Array)                                                      
+  #5 /data/wwwroot/laravel-swoole-chat/app/Console/C                           
+                                                                               
+
+[2017-10-27 11:46:10 *2303.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught ErrorException: md5_file(/Public/Image/user_pic_fat.png): failed to open stream: No such file or directory in /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php:87
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'md5_file(/Publi...', '/data/wwwroot/l...', 87, Array)
+#1 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php(87): md5_file('/Public/Image/u...')
+#2 /data/wwwroot/l
+[2017-10-27 11:46:10 $2301.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+client-50 is closed
+
+array(2) {
+  ["nickname"]=>
+  string(6) "九阎"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/16652781572fe0d7d1de14c1d1356687.jpg"
+}
+[2017-10-27 11:46:13 *3687.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 80 byte failed, because connection[fd=50] is closed.
+client-52 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f2a546b458b"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(6) "罗婕"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/ab6992a1c2ddd07c3d82bc7921a68a28.jpg"
+}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  NULL
+  ["content"]=>
+  string(4) ".。"
+}
+(fd:51):{"type":"message","token":null,"content":".。"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  NULL
+  ["content"]=>
+  string(6) "没人"
+}
+(fd:51):{"type":"message","token":null,"content":"没人"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  NULL
+  ["content"]=>
+  string(6) "人呢"
+}
+(fd:51):{"type":"message","token":null,"content":"人呢"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  NULL
+  ["content"]=>
+  string(9) "这是哪"
+}
+(fd:51):{"type":"message","token":null,"content":"这是哪"}
+client-51 is closed
+
+NULL
+client-53 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f1e8cc9240c"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(11) "-玖玖子-"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/9838265492cf40411019f5b04ee95581.jpg"
+}
+client-54 is connected
+
+client-34 is closed
+
+NULL
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f1e8cc9240c"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(11) "-玖玖子-"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/9838265492cf40411019f5b04ee95581.jpg"
+}
+client-56 is connected
+
+client-57 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f1e8cc9240c"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(11) "-玖玖子-"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/9838265492cf40411019f5b04ee95581.jpg"
+}
+PHP Fatal error:  Uncaught ErrorException: swoole_websocket_server::push(): the connected client of connection[55] is not a websocket client. in /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php:106
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'swoole_websocke...', '/data/wwwroot/l...', 106, Array)
+#1 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php(106): swoole_websocket_server->push(55, '{"type":"inform...')
+#2 [internal function]: App\Console\Commands\Chat->App\Console\Commands\{closure}(Object(swoole_websocket_server), Object(swoole_websocket_frame))
+#3 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php(133): swoole_http_server->start()
+#4 [internal function]: App\Console\Commands\Chat->handle()
+#5 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(29): call_user_func_array(Array, Array)
+#6 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminate/Container/Boun in /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php on line 106
+
+                                                                               
+  [Symfony\Component\Debug\Exception\FatalErrorException]                      
+  Uncaught ErrorException: swoole_websocket_server::push(): the connected cli  
+  ent of connection[55] is not a websocket client. in /data/wwwroot/laravel-s  
+  woole-chat/app/Console/Commands/Chat.php:106                                 
+  Stack trace:                                                                 
+  #0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->h  
+  andleError(2, 'swoole_websocke...', '/data/wwwroot/l...', 106, Array)        
+  #1 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php(106): sw  
+  oole_websocket_server->push(55, '{"type":"inform...')                        
+  #2 [internal function]: App\Console\Commands\Chat->App\Console\Commands\{cl  
+  osure}(Object(swoole_websocket_server), Object(swoole_websocket_frame))      
+  #3 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php(133): sw  
+  oole_http_server->start()                                                    
+  #4 [internal function]: App\Console\Commands\Chat->handle()                  
+  #5 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminat  
+  e/Container/BoundMethod.php(29): call_user_func_array(Array, Array)          
+  #6 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminat  
+  e/Container/Boun                                                             
+                                                                               
+
+[2017-10-27 12:00:17 *3687.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught ErrorException: swoole_websocket_server::push(): the connected client of connection[55] is not a websocket client. in /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php:106
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'swoole_websocke...', '/data/wwwroot/l...', 106, Array)
+#1 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php(106): swoole_websocket_server->push(55, '{"t
+[2017-10-27 12:00:17 $2301.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+client-42 is closed
+
+NULL
+client-43 is closed
+
+NULL
+client-45 is closed
+
+array(2) {
+  ["nickname"]=>
+  string(14) "Sherry_芷樱_"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/198a0b8c5e459e6c408f7b6152309aa4.jpg"
+}
+PHP Fatal error:  Uncaught ErrorException: swoole_websocket_server::push(): the connected client of connection[55] is not a websocket client. in /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php:123
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'swoole_websocke...', '/data/wwwroot/l...', 123, Array)
+#1 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php(123): swoole_websocket_server->push(55, '{"type":"inform...')
+#2 [internal function]: App\Console\Commands\Chat->App\Console\Commands\{closure}(Object(swoole_websocket_server), 45, 0)
+#3 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php(133): swoole_http_server->start()
+#4 [internal function]: App\Console\Commands\Chat->handle()
+#5 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(29): call_user_func_array(Array, Array)
+#6 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(87): Illumina in /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php on line 123
+
+                                                                               
+  [Symfony\Component\Debug\Exception\FatalErrorException]                      
+  Uncaught ErrorException: swoole_websocket_server::push(): the connected cli  
+  ent of connection[55] is not a websocket client. in /data/wwwroot/laravel-s  
+  woole-chat/app/Console/Commands/Chat.php:123                                 
+  Stack trace:                                                                 
+  #0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->h  
+  andleError(2, 'swoole_websocke...', '/data/wwwroot/l...', 123, Array)        
+  #1 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php(123): sw  
+  oole_websocket_server->push(55, '{"type":"inform...')                        
+  #2 [internal function]: App\Console\Commands\Chat->App\Console\Commands\{cl  
+  osure}(Object(swoole_websocket_server), 45, 0)                               
+  #3 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php(133): sw  
+  oole_http_server->start()                                                    
+  #4 [internal function]: App\Console\Commands\Chat->handle()                  
+  #5 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminat  
+  e/Container/BoundMethod.php(29): call_user_func_array(Array, Array)          
+  #6 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminat  
+  e/Container/BoundMethod.php(87): Illumina                                    
+                                                                               
+
+[2017-10-27 12:02:21 *3716.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught ErrorException: swoole_websocket_server::push(): the connected client of connection[55] is not a websocket client. in /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php:123
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'swoole_websocke...', '/data/wwwroot/l...', 123, Array)
+#1 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php(123): swoole_websocket_server->push(55, '{"t
+[2017-10-27 12:02:21 $2301.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+client-59 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f1e8cc9240c"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(11) "-玖玖子-"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/9838265492cf40411019f5b04ee95581.jpg"
+}
+PHP Fatal error:  Uncaught ErrorException: swoole_websocket_server::push(): the connected client of connection[55] is not a websocket client. in /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php:106
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'swoole_websocke...', '/data/wwwroot/l...', 106, Array)
+#1 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php(106): swoole_websocket_server->push(55, '{"type":"inform...')
+#2 [internal function]: App\Console\Commands\Chat->App\Console\Commands\{closure}(Object(swoole_websocket_server), Object(swoole_websocket_frame))
+#3 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php(133): swoole_http_server->start()
+#4 [internal function]: App\Console\Commands\Chat->handle()
+#5 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(29): call_user_func_array(Array, Array)
+#6 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminate/Container/Boun in /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php on line 106
+
+                                                                               
+  [Symfony\Component\Debug\Exception\FatalErrorException]                      
+  Uncaught ErrorException: swoole_websocket_server::push(): the connected cli  
+  ent of connection[55] is not a websocket client. in /data/wwwroot/laravel-s  
+  woole-chat/app/Console/Commands/Chat.php:106                                 
+  Stack trace:                                                                 
+  #0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->h  
+  andleError(2, 'swoole_websocke...', '/data/wwwroot/l...', 106, Array)        
+  #1 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php(106): sw  
+  oole_websocket_server->push(55, '{"type":"inform...')                        
+  #2 [internal function]: App\Console\Commands\Chat->App\Console\Commands\{cl  
+  osure}(Object(swoole_websocket_server), Object(swoole_websocket_frame))      
+  #3 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php(133): sw  
+  oole_http_server->start()                                                    
+  #4 [internal function]: App\Console\Commands\Chat->handle()                  
+  #5 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminat  
+  e/Container/BoundMethod.php(29): call_user_func_array(Array, Array)          
+  #6 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminat  
+  e/Container/Boun                                                             
+                                                                               
+
+[2017-10-27 12:04:52 *3728.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught ErrorException: swoole_websocket_server::push(): the connected client of connection[55] is not a websocket client. in /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php:106
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'swoole_websocke...', '/data/wwwroot/l...', 106, Array)
+#1 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php(106): swoole_websocket_server->push(55, '{"t
+[2017-10-27 12:04:52 $2301.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+client-60 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f1e8cc9240c"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(11) "-玖玖子-"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/9838265492cf40411019f5b04ee95581.jpg"
+}
+PHP Fatal error:  Uncaught ErrorException: swoole_websocket_server::push(): the connected client of connection[55] is not a websocket client. in /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php:106
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'swoole_websocke...', '/data/wwwroot/l...', 106, Array)
+#1 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php(106): swoole_websocket_server->push(55, '{"type":"inform...')
+#2 [internal function]: App\Console\Commands\Chat->App\Console\Commands\{closure}(Object(swoole_websocket_server), Object(swoole_websocket_frame))
+#3 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php(133): swoole_http_server->start()
+#4 [internal function]: App\Console\Commands\Chat->handle()
+#5 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(29): call_user_func_array(Array, Array)
+#6 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminate/Container/Boun in /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php on line 106
+
+                                                                               
+  [Symfony\Component\Debug\Exception\FatalErrorException]                      
+  Uncaught ErrorException: swoole_websocket_server::push(): the connected cli  
+  ent of connection[55] is not a websocket client. in /data/wwwroot/laravel-s  
+  woole-chat/app/Console/Commands/Chat.php:106                                 
+  Stack trace:                                                                 
+  #0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->h  
+  andleError(2, 'swoole_websocke...', '/data/wwwroot/l...', 106, Array)        
+  #1 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php(106): sw  
+  oole_websocket_server->push(55, '{"type":"inform...')                        
+  #2 [internal function]: App\Console\Commands\Chat->App\Console\Commands\{cl  
+  osure}(Object(swoole_websocket_server), Object(swoole_websocket_frame))      
+  #3 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php(133): sw  
+  oole_http_server->start()                                                    
+  #4 [internal function]: App\Console\Commands\Chat->handle()                  
+  #5 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminat  
+  e/Container/BoundMethod.php(29): call_user_func_array(Array, Array)          
+  #6 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminat  
+  e/Container/Boun                                                             
+                                                                               
+
+[2017-10-27 12:04:53 *3729.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught ErrorException: swoole_websocket_server::push(): the connected client of connection[55] is not a websocket client. in /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php:106
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'swoole_websocke...', '/data/wwwroot/l...', 106, Array)
+#1 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php(106): swoole_websocket_server->push(55, '{"t
+[2017-10-27 12:04:53 $2301.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+client-61 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  NULL
+}
+生成token并且保存:user_59f2b081990da
+用户资料:array(2) {
+  ["nickname"]=>
+  string(12) "倾墨遇訫"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/f588a27adeeece294f74a28daa74337a.png"
+}
+PHP Fatal error:  Uncaught ErrorException: swoole_websocket_server::push(): the connected client of connection[55] is not a websocket client. in /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php:106
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'swoole_websocke...', '/data/wwwroot/l...', 106, Array)
+#1 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php(106): swoole_websocket_server->push(55, '{"type":"inform...')
+#2 [internal function]: App\Console\Commands\Chat->App\Console\Commands\{closure}(Object(swoole_websocket_server), Object(swoole_websocket_frame))
+#3 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php(133): swoole_http_server->start()
+#4 [internal function]: App\Console\Commands\Chat->handle()
+#5 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(29): call_user_func_array(Array, Array)
+#6 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminate/Container/Boun in /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php on line 106
+
+                                                                               
+  [Symfony\Component\Debug\Exception\FatalErrorException]                      
+  Uncaught ErrorException: swoole_websocket_server::push(): the connected cli  
+  ent of connection[55] is not a websocket client. in /data/wwwroot/laravel-s  
+  woole-chat/app/Console/Commands/Chat.php:106                                 
+  Stack trace:                                                                 
+  #0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->h  
+  andleError(2, 'swoole_websocke...', '/data/wwwroot/l...', 106, Array)        
+  #1 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php(106): sw  
+  oole_websocket_server->push(55, '{"type":"inform...')                        
+  #2 [internal function]: App\Console\Commands\Chat->App\Console\Commands\{cl  
+  osure}(Object(swoole_websocket_server), Object(swoole_websocket_frame))      
+  #3 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php(133): sw  
+  oole_http_server->start()                                                    
+  #4 [internal function]: App\Console\Commands\Chat->handle()                  
+  #5 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminat  
+  e/Container/BoundMethod.php(29): call_user_func_array(Array, Array)          
+  #6 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminat  
+  e/Container/Boun                                                             
+                                                                               
+
+[2017-10-27 12:05:22 *3730.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught ErrorException: swoole_websocket_server::push(): the connected client of connection[55] is not a websocket client. in /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php:106
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'swoole_websocke...', '/data/wwwroot/l...', 106, Array)
+#1 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php(106): swoole_websocket_server->push(55, '{"t
+[2017-10-27 12:05:22 $2301.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+client-61 is closed
+
+array(2) {
+  ["nickname"]=>
+  string(12) "倾墨遇訫"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/f588a27adeeece294f74a28daa74337a.png"
+}
+PHP Fatal error:  Uncaught ErrorException: swoole_websocket_server::push(): the connected client of connection[55] is not a websocket client. in /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php:123
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'swoole_websocke...', '/data/wwwroot/l...', 123, Array)
+#1 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php(123): swoole_websocket_server->push(55, '{"type":"inform...')
+#2 [internal function]: App\Console\Commands\Chat->App\Console\Commands\{closure}(Object(swoole_websocket_server), 61, 0)
+#3 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php(133): swoole_http_server->start()
+#4 [internal function]: App\Console\Commands\Chat->handle()
+#5 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(29): call_user_func_array(Array, Array)
+#6 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(87): Illumina in /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php on line 123
+
+                                                                               
+  [Symfony\Component\Debug\Exception\FatalErrorException]                      
+  Uncaught ErrorException: swoole_websocket_server::push(): the connected cli  
+  ent of connection[55] is not a websocket client. in /data/wwwroot/laravel-s  
+  woole-chat/app/Console/Commands/Chat.php:123                                 
+  Stack trace:                                                                 
+  #0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->h  
+  andleError(2, 'swoole_websocke...', '/data/wwwroot/l...', 123, Array)        
+  #1 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php(123): sw  
+  oole_websocket_server->push(55, '{"type":"inform...')                        
+  #2 [internal function]: App\Console\Commands\Chat->App\Console\Commands\{cl  
+  osure}(Object(swoole_websocket_server), 61, 0)                               
+  #3 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php(133): sw  
+  oole_http_server->start()                                                    
+  #4 [internal function]: App\Console\Commands\Chat->handle()                  
+  #5 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminat  
+  e/Container/BoundMethod.php(29): call_user_func_array(Array, Array)          
+  #6 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminat  
+  e/Container/BoundMethod.php(87): Illumina                                    
+                                                                               
+
+[2017-10-27 12:05:25 *3731.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught ErrorException: swoole_websocket_server::push(): the connected client of connection[55] is not a websocket client. in /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php:123
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'swoole_websocke...', '/data/wwwroot/l...', 123, Array)
+#1 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php(123): swoole_websocket_server->push(55, '{"t
+[2017-10-27 12:05:25 $2301.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+client-59 is closed
+
+array(2) {
+  ["nickname"]=>
+  string(27) "还有台风陪我嗅蔷薇"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/da7ea59ac9fb0958ad5b963333c093e5.jpg"
+}
+PHP Fatal error:  Uncaught ErrorException: swoole_websocket_server::push(): the connected client of connection[55] is not a websocket client. in /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php:123
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'swoole_websocke...', '/data/wwwroot/l...', 123, Array)
+#1 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php(123): swoole_websocket_server->push(55, '{"type":"inform...')
+#2 [internal function]: App\Console\Commands\Chat->App\Console\Commands\{closure}(Object(swoole_websocket_server), 59, 0)
+#3 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php(133): swoole_http_server->start()
+#4 [internal function]: App\Console\Commands\Chat->handle()
+#5 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(29): call_user_func_array(Array, Array)
+#6 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(87): Illumina in /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php on line 123
+
+                                                                               
+  [Symfony\Component\Debug\Exception\FatalErrorException]                      
+  Uncaught ErrorException: swoole_websocket_server::push(): the connected cli  
+  ent of connection[55] is not a websocket client. in /data/wwwroot/laravel-s  
+  woole-chat/app/Console/Commands/Chat.php:123                                 
+  Stack trace:                                                                 
+  #0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->h  
+  andleError(2, 'swoole_websocke...', '/data/wwwroot/l...', 123, Array)        
+  #1 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php(123): sw  
+  oole_websocket_server->push(55, '{"type":"inform...')                        
+  #2 [internal function]: App\Console\Commands\Chat->App\Console\Commands\{cl  
+  osure}(Object(swoole_websocket_server), 59, 0)                               
+  #3 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php(133): sw  
+  oole_http_server->start()                                                    
+  #4 [internal function]: App\Console\Commands\Chat->handle()                  
+  #5 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminat  
+  e/Container/BoundMethod.php(29): call_user_func_array(Array, Array)          
+  #6 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminat  
+  e/Container/BoundMethod.php(87): Illumina                                    
+                                                                               
+
+[2017-10-27 12:09:48 *3732.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught ErrorException: swoole_websocket_server::push(): the connected client of connection[55] is not a websocket client. in /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php:123
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'swoole_websocke...', '/data/wwwroot/l...', 123, Array)
+#1 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php(123): swoole_websocket_server->push(55, '{"t
+[2017-10-27 12:09:48 $2301.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+client-60 is closed
+
+NULL
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f2a546b458b"
+  ["content"]=>
+  string(1) "z"
+}
+(fd:52)罗婕:{"type":"message","token":"user_59f2a546b458b","content":"z"}
+PHP Fatal error:  Uncaught ErrorException: swoole_websocket_server::push(): the connected client of connection[55] is not a websocket client. in /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php:72
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'swoole_websocke...', '/data/wwwroot/l...', 72, Array)
+#1 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php(72): swoole_websocket_server->push(55, '{"type":"messag...')
+#2 [internal function]: App\Console\Commands\Chat->App\Console\Commands\{closure}(Object(swoole_websocket_server), Object(swoole_websocket_frame))
+#3 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php(133): swoole_http_server->start()
+#4 [internal function]: App\Console\Commands\Chat->handle()
+#5 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(29): call_user_func_array(Array, Array)
+#6 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminate/Container/BoundMe in /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php on line 72
+
+                                                                               
+  [Symfony\Component\Debug\Exception\FatalErrorException]                      
+  Uncaught ErrorException: swoole_websocket_server::push(): the connected cli  
+  ent of connection[55] is not a websocket client. in /data/wwwroot/laravel-s  
+  woole-chat/app/Console/Commands/Chat.php:72                                  
+  Stack trace:                                                                 
+  #0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->h  
+  andleError(2, 'swoole_websocke...', '/data/wwwroot/l...', 72, Array)         
+  #1 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php(72): swo  
+  ole_websocket_server->push(55, '{"type":"messag...')                         
+  #2 [internal function]: App\Console\Commands\Chat->App\Console\Commands\{cl  
+  osure}(Object(swoole_websocket_server), Object(swoole_websocket_frame))      
+  #3 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php(133): sw  
+  oole_http_server->start()                                                    
+  #4 [internal function]: App\Console\Commands\Chat->handle()                  
+  #5 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminat  
+  e/Container/BoundMethod.php(29): call_user_func_array(Array, Array)          
+  #6 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminat  
+  e/Container/BoundMe                                                          
+                                                                               
+
+[2017-10-27 12:14:36 *3733.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught ErrorException: swoole_websocket_server::push(): the connected client of connection[55] is not a websocket client. in /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php:72
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'swoole_websocke...', '/data/wwwroot/l...', 72, Array)
+#1 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php(72): swoole_websocket_server->push(55, '{"type
+[2017-10-27 12:14:36 $2301.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f2a546b458b"
+  ["content"]=>
+  string(5) "fsdfa"
+}
+(fd:52)罗婕:{"type":"message","token":"user_59f2a546b458b","content":"fsdfa"}
+PHP Fatal error:  Uncaught ErrorException: swoole_websocket_server::push(): the connected client of connection[55] is not a websocket client. in /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php:72
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'swoole_websocke...', '/data/wwwroot/l...', 72, Array)
+#1 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php(72): swoole_websocket_server->push(55, '{"type":"messag...')
+#2 [internal function]: App\Console\Commands\Chat->App\Console\Commands\{closure}(Object(swoole_websocket_server), Object(swoole_websocket_frame))
+#3 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php(133): swoole_http_server->start()
+#4 [internal function]: App\Console\Commands\Chat->handle()
+#5 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(29): call_user_func_array(Array, Array)
+#6 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminate/Container/BoundMe in /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php on line 72
+
+                                                                               
+  [Symfony\Component\Debug\Exception\FatalErrorException]                      
+  Uncaught ErrorException: swoole_websocket_server::push(): the connected cli  
+  ent of connection[55] is not a websocket client. in /data/wwwroot/laravel-s  
+  woole-chat/app/Console/Commands/Chat.php:72                                  
+  Stack trace:                                                                 
+  #0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->h  
+  andleError(2, 'swoole_websocke...', '/data/wwwroot/l...', 72, Array)         
+  #1 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php(72): swo  
+  ole_websocket_server->push(55, '{"type":"messag...')                         
+  #2 [internal function]: App\Console\Commands\Chat->App\Console\Commands\{cl  
+  osure}(Object(swoole_websocket_server), Object(swoole_websocket_frame))      
+  #3 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php(133): sw  
+  oole_http_server->start()                                                    
+  #4 [internal function]: App\Console\Commands\Chat->handle()                  
+  #5 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminat  
+  e/Container/BoundMethod.php(29): call_user_func_array(Array, Array)          
+  #6 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminat  
+  e/Container/BoundMe                                                          
+                                                                               
+
+[2017-10-27 12:14:40 *3755.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught ErrorException: swoole_websocket_server::push(): the connected client of connection[55] is not a websocket client. in /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php:72
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'swoole_websocke...', '/data/wwwroot/l...', 72, Array)
+#1 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php(72): swoole_websocket_server->push(55, '{"type
+[2017-10-27 12:14:40 $2301.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+client-52 is closed
+
+NULL
+client-62 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f2a546b458b"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(6) "罗婕"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/ab6992a1c2ddd07c3d82bc7921a68a28.jpg"
+}
+PHP Fatal error:  Uncaught ErrorException: swoole_websocket_server::push(): the connected client of connection[55] is not a websocket client. in /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php:106
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'swoole_websocke...', '/data/wwwroot/l...', 106, Array)
+#1 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php(106): swoole_websocket_server->push(55, '{"type":"inform...')
+#2 [internal function]: App\Console\Commands\Chat->App\Console\Commands\{closure}(Object(swoole_websocket_server), Object(swoole_websocket_frame))
+#3 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php(133): swoole_http_server->start()
+#4 [internal function]: App\Console\Commands\Chat->handle()
+#5 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(29): call_user_func_array(Array, Array)
+#6 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminate/Container/Boun in /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php on line 106
+
+                                                                               
+  [Symfony\Component\Debug\Exception\FatalErrorException]                      
+  Uncaught ErrorException: swoole_websocket_server::push(): the connected cli  
+  ent of connection[55] is not a websocket client. in /data/wwwroot/laravel-s  
+  woole-chat/app/Console/Commands/Chat.php:106                                 
+  Stack trace:                                                                 
+  #0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->h  
+  andleError(2, 'swoole_websocke...', '/data/wwwroot/l...', 106, Array)        
+  #1 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php(106): sw  
+  oole_websocket_server->push(55, '{"type":"inform...')                        
+  #2 [internal function]: App\Console\Commands\Chat->App\Console\Commands\{cl  
+  osure}(Object(swoole_websocket_server), Object(swoole_websocket_frame))      
+  #3 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php(133): sw  
+  oole_http_server->start()                                                    
+  #4 [internal function]: App\Console\Commands\Chat->handle()                  
+  #5 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminat  
+  e/Container/BoundMethod.php(29): call_user_func_array(Array, Array)          
+  #6 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminat  
+  e/Container/Boun                                                             
+                                                                               
+
+[2017-10-27 12:15:14 *3756.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught ErrorException: swoole_websocket_server::push(): the connected client of connection[55] is not a websocket client. in /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php:106
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'swoole_websocke...', '/data/wwwroot/l...', 106, Array)
+#1 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php(106): swoole_websocket_server->push(55, '{"t
+[2017-10-27 12:15:14 $2301.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+client-62 is closed
+
+array(2) {
+  ["nickname"]=>
+  string(6) "亦瑶"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/9e3c889d5c7bafe3fb5f69b73f7c8be2.jpg"
+}
+PHP Fatal error:  Uncaught ErrorException: swoole_websocket_server::push(): the connected client of connection[55] is not a websocket client. in /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php:123
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'swoole_websocke...', '/data/wwwroot/l...', 123, Array)
+#1 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php(123): swoole_websocket_server->push(55, '{"type":"inform...')
+#2 [internal function]: App\Console\Commands\Chat->App\Console\Commands\{closure}(Object(swoole_websocket_server), 62, 0)
+#3 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php(133): swoole_http_server->start()
+#4 [internal function]: App\Console\Commands\Chat->handle()
+#5 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(29): call_user_func_array(Array, Array)
+#6 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(87): Illumina in /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php on line 123
+
+                                                                               
+  [Symfony\Component\Debug\Exception\FatalErrorException]                      
+  Uncaught ErrorException: swoole_websocket_server::push(): the connected cli  
+  ent of connection[55] is not a websocket client. in /data/wwwroot/laravel-s  
+  woole-chat/app/Console/Commands/Chat.php:123                                 
+  Stack trace:                                                                 
+  #0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->h  
+  andleError(2, 'swoole_websocke...', '/data/wwwroot/l...', 123, Array)        
+  #1 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php(123): sw  
+  oole_websocket_server->push(55, '{"type":"inform...')                        
+  #2 [internal function]: App\Console\Commands\Chat->App\Console\Commands\{cl  
+  osure}(Object(swoole_websocket_server), 62, 0)                               
+  #3 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php(133): sw  
+  oole_http_server->start()                                                    
+  #4 [internal function]: App\Console\Commands\Chat->handle()                  
+  #5 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminat  
+  e/Container/BoundMethod.php(29): call_user_func_array(Array, Array)          
+  #6 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminat  
+  e/Container/BoundMethod.php(87): Illumina                                    
+                                                                               
+
+[2017-10-27 12:16:34 *3757.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught ErrorException: swoole_websocket_server::push(): the connected client of connection[55] is not a websocket client. in /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php:123
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'swoole_websocke...', '/data/wwwroot/l...', 123, Array)
+#1 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php(123): swoole_websocket_server->push(55, '{"t
+[2017-10-27 12:16:34 $2301.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+client-63 is connected
+
+client-64 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f2a546b458b"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(6) "罗婕"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/ab6992a1c2ddd07c3d82bc7921a68a28.jpg"
+}
+PHP Fatal error:  Uncaught ErrorException: swoole_websocket_server::push(): the connected client of connection[55] is not a websocket client. in /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php:106
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'swoole_websocke...', '/data/wwwroot/l...', 106, Array)
+#1 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php(106): swoole_websocket_server->push(55, '{"type":"inform...')
+#2 [internal function]: App\Console\Commands\Chat->App\Console\Commands\{closure}(Object(swoole_websocket_server), Object(swoole_websocket_frame))
+#3 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php(133): swoole_http_server->start()
+#4 [internal function]: App\Console\Commands\Chat->handle()
+#5 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(29): call_user_func_array(Array, Array)
+#6 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminate/Container/Boun in /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php on line 106
+
+                                                                               
+  [Symfony\Component\Debug\Exception\FatalErrorException]                      
+  Uncaught ErrorException: swoole_websocket_server::push(): the connected cli  
+  ent of connection[55] is not a websocket client. in /data/wwwroot/laravel-s  
+  woole-chat/app/Console/Commands/Chat.php:106                                 
+  Stack trace:                                                                 
+  #0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->h  
+  andleError(2, 'swoole_websocke...', '/data/wwwroot/l...', 106, Array)        
+  #1 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php(106): sw  
+  oole_websocket_server->push(55, '{"type":"inform...')                        
+  #2 [internal function]: App\Console\Commands\Chat->App\Console\Commands\{cl  
+  osure}(Object(swoole_websocket_server), Object(swoole_websocket_frame))      
+  #3 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php(133): sw  
+  oole_http_server->start()                                                    
+  #4 [internal function]: App\Console\Commands\Chat->handle()                  
+  #5 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminat  
+  e/Container/BoundMethod.php(29): call_user_func_array(Array, Array)          
+  #6 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminat  
+  e/Container/Boun                                                             
+                                                                               
+
+[2017-10-27 12:16:40 *3758.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught ErrorException: swoole_websocket_server::push(): the connected client of connection[55] is not a websocket client. in /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php:106
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'swoole_websocke...', '/data/wwwroot/l...', 106, Array)
+#1 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php(106): swoole_websocket_server->push(55, '{"t
+[2017-10-27 12:16:40 $2301.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+client-64 is closed
+
+NULL
+client-65 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f2a546b458b"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(6) "罗婕"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/ab6992a1c2ddd07c3d82bc7921a68a28.jpg"
+}
+PHP Fatal error:  Uncaught ErrorException: swoole_websocket_server::push(): the connected client of connection[55] is not a websocket client. in /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php:106
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'swoole_websocke...', '/data/wwwroot/l...', 106, Array)
+#1 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php(106): swoole_websocket_server->push(55, '{"type":"inform...')
+#2 [internal function]: App\Console\Commands\Chat->App\Console\Commands\{closure}(Object(swoole_websocket_server), Object(swoole_websocket_frame))
+#3 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php(133): swoole_http_server->start()
+#4 [internal function]: App\Console\Commands\Chat->handle()
+#5 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(29): call_user_func_array(Array, Array)
+#6 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminate/Container/Boun in /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php on line 106
+
+                                                                               
+  [Symfony\Component\Debug\Exception\FatalErrorException]                      
+  Uncaught ErrorException: swoole_websocket_server::push(): the connected cli  
+  ent of connection[55] is not a websocket client. in /data/wwwroot/laravel-s  
+  woole-chat/app/Console/Commands/Chat.php:106                                 
+  Stack trace:                                                                 
+  #0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->h  
+  andleError(2, 'swoole_websocke...', '/data/wwwroot/l...', 106, Array)        
+  #1 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php(106): sw  
+  oole_websocket_server->push(55, '{"type":"inform...')                        
+  #2 [internal function]: App\Console\Commands\Chat->App\Console\Commands\{cl  
+  osure}(Object(swoole_websocket_server), Object(swoole_websocket_frame))      
+  #3 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php(133): sw  
+  oole_http_server->start()                                                    
+  #4 [internal function]: App\Console\Commands\Chat->handle()                  
+  #5 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminat  
+  e/Container/BoundMethod.php(29): call_user_func_array(Array, Array)          
+  #6 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminat  
+  e/Container/Boun                                                             
+                                                                               
+
+[2017-10-27 12:16:46 *3759.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught ErrorException: swoole_websocket_server::push(): the connected client of connection[55] is not a websocket client. in /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php:106
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'swoole_websocke...', '/data/wwwroot/l...', 106, Array)
+#1 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php(106): swoole_websocket_server->push(55, '{"t
+[2017-10-27 12:16:46 $2301.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+client-63 is closed
+
+NULL
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f2a546b458b"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(6) "罗婕"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/ab6992a1c2ddd07c3d82bc7921a68a28.jpg"
+}
+PHP Fatal error:  Uncaught ErrorException: swoole_websocket_server::push(): the connected client of connection[55] is not a websocket client. in /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php:106
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'swoole_websocke...', '/data/wwwroot/l...', 106, Array)
+#1 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php(106): swoole_websocket_server->push(55, '{"type":"inform...')
+#2 [internal function]: App\Console\Commands\Chat->App\Console\Commands\{closure}(Object(swoole_websocket_server), Object(swoole_websocket_frame))
+#3 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php(133): swoole_http_server->start()
+#4 [internal function]: App\Console\Commands\Chat->handle()
+#5 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(29): call_user_func_array(Array, Array)
+#6 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminate/Container/Boun in /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php on line 106
+
+                                                                               
+  [Symfony\Component\Debug\Exception\FatalErrorException]                      
+  Uncaught ErrorException: swoole_websocket_server::push(): the connected cli  
+  ent of connection[55] is not a websocket client. in /data/wwwroot/laravel-s  
+  woole-chat/app/Console/Commands/Chat.php:106                                 
+  Stack trace:                                                                 
+  #0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->h  
+  andleError(2, 'swoole_websocke...', '/data/wwwroot/l...', 106, Array)        
+  #1 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php(106): sw  
+  oole_websocket_server->push(55, '{"type":"inform...')                        
+  #2 [internal function]: App\Console\Commands\Chat->App\Console\Commands\{cl  
+  osure}(Object(swoole_websocket_server), Object(swoole_websocket_frame))      
+  #3 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php(133): sw  
+  oole_http_server->start()                                                    
+  #4 [internal function]: App\Console\Commands\Chat->handle()                  
+  #5 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminat  
+  e/Container/BoundMethod.php(29): call_user_func_array(Array, Array)          
+  #6 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminat  
+  e/Container/Boun                                                             
+                                                                               
+
+[2017-10-27 12:16:47 *3760.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught ErrorException: swoole_websocket_server::push(): the connected client of connection[55] is not a websocket client. in /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php:106
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'swoole_websocke...', '/data/wwwroot/l...', 106, Array)
+#1 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php(106): swoole_websocket_server->push(55, '{"t
+[2017-10-27 12:16:47 $2301.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f2a546b458b"
+  ["content"]=>
+  string(2) "zz"
+}
+(fd:65)罗婕:{"type":"message","token":"user_59f2a546b458b","content":"zz"}
+PHP Fatal error:  Uncaught ErrorException: swoole_websocket_server::push(): the connected client of connection[55] is not a websocket client. in /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php:72
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'swoole_websocke...', '/data/wwwroot/l...', 72, Array)
+#1 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php(72): swoole_websocket_server->push(55, '{"type":"messag...')
+#2 [internal function]: App\Console\Commands\Chat->App\Console\Commands\{closure}(Object(swoole_websocket_server), Object(swoole_websocket_frame))
+#3 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php(133): swoole_http_server->start()
+#4 [internal function]: App\Console\Commands\Chat->handle()
+#5 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(29): call_user_func_array(Array, Array)
+#6 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminate/Container/BoundMe in /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php on line 72
+
+                                                                               
+  [Symfony\Component\Debug\Exception\FatalErrorException]                      
+  Uncaught ErrorException: swoole_websocket_server::push(): the connected cli  
+  ent of connection[55] is not a websocket client. in /data/wwwroot/laravel-s  
+  woole-chat/app/Console/Commands/Chat.php:72                                  
+  Stack trace:                                                                 
+  #0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->h  
+  andleError(2, 'swoole_websocke...', '/data/wwwroot/l...', 72, Array)         
+  #1 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php(72): swo  
+  ole_websocket_server->push(55, '{"type":"messag...')                         
+  #2 [internal function]: App\Console\Commands\Chat->App\Console\Commands\{cl  
+  osure}(Object(swoole_websocket_server), Object(swoole_websocket_frame))      
+  #3 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php(133): sw  
+  oole_http_server->start()                                                    
+  #4 [internal function]: App\Console\Commands\Chat->handle()                  
+  #5 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminat  
+  e/Container/BoundMethod.php(29): call_user_func_array(Array, Array)          
+  #6 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminat  
+  e/Container/BoundMe                                                          
+                                                                               
+
+[2017-10-27 12:16:52 *3761.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught ErrorException: swoole_websocket_server::push(): the connected client of connection[55] is not a websocket client. in /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php:72
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'swoole_websocke...', '/data/wwwroot/l...', 72, Array)
+#1 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php(72): swoole_websocket_server->push(55, '{"type
+[2017-10-27 12:16:52 $2301.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+client-65 is closed
+
+NULL
+client-66 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f2a546b458b"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(6) "罗婕"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/ab6992a1c2ddd07c3d82bc7921a68a28.jpg"
+}
+PHP Fatal error:  Uncaught ErrorException: swoole_websocket_server::push(): the connected client of connection[55] is not a websocket client. in /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php:106
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'swoole_websocke...', '/data/wwwroot/l...', 106, Array)
+#1 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php(106): swoole_websocket_server->push(55, '{"type":"inform...')
+#2 [internal function]: App\Console\Commands\Chat->App\Console\Commands\{closure}(Object(swoole_websocket_server), Object(swoole_websocket_frame))
+#3 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php(133): swoole_http_server->start()
+#4 [internal function]: App\Console\Commands\Chat->handle()
+#5 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(29): call_user_func_array(Array, Array)
+#6 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminate/Container/Boun in /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php on line 106
+
+                                                                               
+  [Symfony\Component\Debug\Exception\FatalErrorException]                      
+  Uncaught ErrorException: swoole_websocket_server::push(): the connected cli  
+  ent of connection[55] is not a websocket client. in /data/wwwroot/laravel-s  
+  woole-chat/app/Console/Commands/Chat.php:106                                 
+  Stack trace:                                                                 
+  #0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->h  
+  andleError(2, 'swoole_websocke...', '/data/wwwroot/l...', 106, Array)        
+  #1 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php(106): sw  
+  oole_websocket_server->push(55, '{"type":"inform...')                        
+  #2 [internal function]: App\Console\Commands\Chat->App\Console\Commands\{cl  
+  osure}(Object(swoole_websocket_server), Object(swoole_websocket_frame))      
+  #3 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php(133): sw  
+  oole_http_server->start()                                                    
+  #4 [internal function]: App\Console\Commands\Chat->handle()                  
+  #5 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminat  
+  e/Container/BoundMethod.php(29): call_user_func_array(Array, Array)          
+  #6 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminat  
+  e/Container/Boun                                                             
+                                                                               
+
+[2017-10-27 12:17:21 *3762.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught ErrorException: swoole_websocket_server::push(): the connected client of connection[55] is not a websocket client. in /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php:106
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'swoole_websocke...', '/data/wwwroot/l...', 106, Array)
+#1 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php(106): swoole_websocket_server->push(55, '{"t
+[2017-10-27 12:17:21 $2301.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+server starting at 9502 port...
+client-1 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f2a546b458b"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(6) "罗婕"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/ab6992a1c2ddd07c3d82bc7921a68a28.jpg"
+}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f2a546b458b"
+  ["content"]=>
+  string(1) "z"
+}
+(fd:1)罗婕:{"type":"message","token":"user_59f2a546b458b","content":"z"}
+client-1 is closed
+
+NULL
+client-2 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f2a546b458b"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(6) "罗婕"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/ab6992a1c2ddd07c3d82bc7921a68a28.jpg"
+}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f2a546b458b"
+  ["content"]=>
+  string(1) "z"
+}
+(fd:2)罗婕:{"type":"message","token":"user_59f2a546b458b","content":"z"}
+client-2 is closed
+
+array(2) {
+  ["nickname"]=>
+  string(9) "浩华德"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/b6e8865a3702b72266f9dde4b1a53379.png"
+}
+[2017-10-27 12:29:27 *3823.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 86 byte failed, because connection[fd=2] is closed.
+client-3 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f2a546b458b"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(6) "罗婕"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/ab6992a1c2ddd07c3d82bc7921a68a28.jpg"
+}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f2a546b458b"
+  ["content"]=>
+  string(2) "zz"
+}
+(fd:3)罗婕:{"type":"message","token":"user_59f2a546b458b","content":"zz"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f2a546b458b"
+  ["content"]=>
+  string(3) "dsf"
+}
+(fd:3)罗婕:{"type":"message","token":"user_59f2a546b458b","content":"dsf"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f2a546b458b"
+  ["content"]=>
+  string(7) "dsafdsf"
+}
+(fd:3)罗婕:{"type":"message","token":"user_59f2a546b458b","content":"dsafdsf"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f2a546b458b"
+  ["content"]=>
+  string(10) "sadfdsfsad"
+}
+(fd:3)罗婕:{"type":"message","token":"user_59f2a546b458b","content":"sadfdsfsad"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f2a546b458b"
+  ["content"]=>
+  string(7) "sfsadfs"
+}
+(fd:3)罗婕:{"type":"message","token":"user_59f2a546b458b","content":"sfsadfs"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f2a546b458b"
+  ["content"]=>
+  string(7) "sdfsdaf"
+}
+(fd:3)罗婕:{"type":"message","token":"user_59f2a546b458b","content":"sdfsdaf"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f2a546b458b"
+  ["content"]=>
+  string(6) "sdfsdf"
+}
+(fd:3)罗婕:{"type":"message","token":"user_59f2a546b458b","content":"sdfsdf"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f2a546b458b"
+  ["content"]=>
+  string(3) "dsf"
+}
+(fd:3)罗婕:{"type":"message","token":"user_59f2a546b458b","content":"dsf"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f2a546b458b"
+  ["content"]=>
+  string(6) "sdfsdf"
+}
+(fd:3)罗婕:{"type":"message","token":"user_59f2a546b458b","content":"sdfsdf"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f2a546b458b"
+  ["content"]=>
+  string(2) "ds"
+}
+(fd:3)罗婕:{"type":"message","token":"user_59f2a546b458b","content":"ds"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f2a546b458b"
+  ["content"]=>
+  string(3) "fds"
+}
+(fd:3)罗婕:{"type":"message","token":"user_59f2a546b458b","content":"fds"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f2a546b458b"
+  ["content"]=>
+  string(4) "fdsa"
+}
+(fd:3)罗婕:{"type":"message","token":"user_59f2a546b458b","content":"fdsa"}
+client-4 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f1a3ac2c8e7"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(12) "三隻小貓"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/f2a4e929e1df5fa9afb5d8b5b091adb5.png"
+}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f1a3ac2c8e7"
+  ["content"]=>
+  string(3) "嗯"
+}
+(fd:4)三隻小貓:{"type":"message","token":"user_59f1a3ac2c8e7","content":"嗯"}
+client-4 is closed
+
+array(2) {
+  ["nickname"]=>
+  string(12) "努力吧宁"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/ca0fb9570cac233aa2c1d0d6bc62d17b.png"
+}
+[2017-10-27 12:31:47 *3823.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 92 byte failed, because connection[fd=4] is closed.
+client-5 is connected
+
+client-3 is closed
+
+array(2) {
+  ["nickname"]=>
+  string(12) "CZRJJSMT-IVY"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/a4b4907f8c53fa076e024501804fda28.jpg"
+}
+[2017-10-27 12:31:53 *3823.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 80 byte failed, because connection[fd=3] is closed.
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f1a3ac2c8e7"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(12) "三隻小貓"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/f2a4e929e1df5fa9afb5d8b5b091adb5.png"
+}
+client-6 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f2a546b458b"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(6) "罗婕"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/ab6992a1c2ddd07c3d82bc7921a68a28.jpg"
+}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f1a3ac2c8e7"
+  ["content"]=>
+  string(3) "嗯"
+}
+(fd:5)三隻小貓:{"type":"message","token":"user_59f1a3ac2c8e7","content":"嗯"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f1a3ac2c8e7"
+  ["content"]=>
+  string(12) "。。。。"
+}
+(fd:5)三隻小貓:{"type":"message","token":"user_59f1a3ac2c8e7","content":"。。。。"}
+client-6 is closed
+
+array(2) {
+  ["nickname"]=>
+  string(18) "黑羽快斗mimosa"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/5b71f6297e915cd5cbade32d4f49922b.png"
+}
+[2017-10-27 12:32:14 *3823.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 98 byte failed, because connection[fd=6] is closed.
+client-7 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f2a546b458b"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(6) "罗婕"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/ab6992a1c2ddd07c3d82bc7921a68a28.jpg"
+}
+client-7 is closed
+
+array(2) {
+  ["nickname"]=>
+  string(8) "__嘲月"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/f5c3c6b9cff49269f7a04f408fcf427f.png"
+}
+[2017-10-27 13:00:14 *3823.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 82 byte failed, because connection[fd=7] is closed.
+client-8 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f2a546b458b"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(6) "罗婕"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/ab6992a1c2ddd07c3d82bc7921a68a28.jpg"
+}
+client-9 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  NULL
+}
+生成token并且保存:user_59f2ca55ac0ba
+用户资料:array(2) {
+  ["nickname"]=>
+  string(11) "切切celia"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/a02487cc400342b3b0278d4a7d6e4c33.jpg"
+}
+[2017-10-27 13:55:38 *3823.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 55 byte failed, because connection[fd=9] is closed.
+[2017-10-27 13:55:38 *3823.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 91 byte failed, because connection[fd=9] is closed.
+client-9 is closed
+
+array(2) {
+  ["nickname"]=>
+  string(11) "切切celia"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/a02487cc400342b3b0278d4a7d6e4c33.jpg"
+}
+[2017-10-27 13:55:38 *3823.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 85 byte failed, because connection[fd=9] is closed.
+client-5 is closed
+
+array(2) {
+  ["nickname"]=>
+  string(18) "天真他本家_qq"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/76d32005810e303fbc55b733abefaa68.jpg"
+}
+[2017-10-27 13:55:46 *3823.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 101 byte failed, because connection[fd=5] is closed.
+client-8 is closed
+
+array(2) {
+  ["nickname"]=>
+  string(9) "宏电子"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/0f64c0bee732eb82bb4b67779158d63d.jpg"
+}
+[2017-10-27 14:02:01 *3823.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 86 byte failed, because connection[fd=8] is closed.
+client-10 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f2a546b458b"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(6) "罗婕"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/ab6992a1c2ddd07c3d82bc7921a68a28.jpg"
+}
+client-10 is closed
+
+array(2) {
+  ["nickname"]=>
+  string(12) "陌莫_Milky"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/e5e38e84a08de3529abce2ee50ed5e71.jpg"
+}
+[2017-10-27 14:03:41 *3823.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 86 byte failed, because connection[fd=10] is closed.
+client-11 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f2a546b458b"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(6) "罗婕"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/ab6992a1c2ddd07c3d82bc7921a68a28.jpg"
+}
+[2017-10-27 14:05:08 *3823.0]	WARNING	swSignalfd_onSignal: signal[1] callback is null.
+[2017-10-27 14:05:08 $3821.0]	WARNING	swSignal_callback: signal[1] callback is null.
+[2017-10-27 14:05:08 #3805.1]	WARNING	swSignalfd_onSignal: signal[1] callback is null.
+server starting at 9502 port...
+client-1 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f2a546b458b"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(6) "罗婕"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/ab6992a1c2ddd07c3d82bc7921a68a28.jpg"
+}
+client-1 is closed
+
+NULL
+client-2 is connected
+
+[2017-10-27 14:13:20 $2360.0]	WARNING	swSignal_callback: signal[1] callback is null.
+[2017-10-27 14:13:20 *2362.0]	WARNING	swSignalfd_onSignal: signal[1] callback is null.
+[2017-10-27 14:13:20 #2344.1]	WARNING	swSignalfd_onSignal: signal[1] callback is null.
+client-3 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f2a546b458b"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(6) "罗婕"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/ab6992a1c2ddd07c3d82bc7921a68a28.jpg"
+}
+client-2 is closed
+
+array(2) {
+  ["nickname"]=>
+  string(9) "浩华德"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/b6e8865a3702b72266f9dde4b1a53379.png"
+}
+[2017-10-27 14:14:06 *2362.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 86 byte failed, because connection[fd=2] is closed.
+server starting at 9502 port...
+client-1 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f2a546b458b"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(6) "罗婕"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/ab6992a1c2ddd07c3d82bc7921a68a28.jpg"
+}
+client-1 is closed
+
+NULL
+client-2 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f2a546b458b"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(6) "罗婕"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/ab6992a1c2ddd07c3d82bc7921a68a28.jpg"
+}
+client-2 is closed
+
+array(2) {
+  ["nickname"]=>
+  string(9) "浩华德"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/b6e8865a3702b72266f9dde4b1a53379.png"
+}
+[2017-10-27 14:24:59 *2322.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 86 byte failed, because connection[fd=2] is closed.
+client-3 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f2a546b458b"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(6) "罗婕"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/ab6992a1c2ddd07c3d82bc7921a68a28.jpg"
+}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f2a546b458b"
+  ["content"]=>
+  string(2) "aa"
+}
+(fd:3)罗婕:{"type":"message","token":"user_59f2a546b458b","content":"aa"}
+client-4 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  NULL
+}
+PHP Fatal error:  Uncaught ErrorException: md5_file(https://image02.worldcosplay.net/uploads/66089/reqonfbdpwixtrygymwppgjfsbhyzblsnrwkokbc-100.jpg): failed to open stream: Connection timed out in /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php:87
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'md5_file(https:...', '/data/wwwroot/l...', 87, Array)
+#1 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php(87): md5_file('https://image02...')
+#2 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminate/Cache/Repository.php(326): App\Console\Commands\Chat->App\Console\Commands\{closure}()
+#3 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminate/Cache/CacheManager.php(305): Illuminate\Cache\Repository->rememberForever('user_59f2d15f5d...', Object(Closure))
+#4 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(221): Illuminate\Cache\CacheManager->__call('rememberForever in /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php on line 87
+
+                                                                               
+  [Symfony\Component\Debug\Exception\FatalErrorException]                      
+  Uncaught ErrorException: md5_file(https://image02.worldcosplay.net/uploads/  
+  66089/reqonfbdpwixtrygymwppgjfsbhyzblsnrwkokbc-100.jpg): failed to open str  
+  eam: Connection timed out in /data/wwwroot/laravel-swoole-chat/app/Console/  
+  Commands/Chat.php:87                                                         
+  Stack trace:                                                                 
+  #0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->h  
+  andleError(2, 'md5_file(https:...', '/data/wwwroot/l...', 87, Array)         
+  #1 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php(87): md5  
+  _file('https://image02...')                                                  
+  #2 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminat  
+  e/Cache/Repository.php(326): App\Console\Commands\Chat->App\Console\Command  
+  s\{closure}()                                                                
+  #3 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminat  
+  e/Cache/CacheManager.php(305): Illuminate\Cache\Repository->rememberForever  
+  ('user_59f2d15f5d...', Object(Closure))                                      
+  #4 /data/wwwroot/laravel-swoole-chat/vendor/laravel/framework/src/Illuminat  
+  e/Support/Facades/Facade.php(221): Illuminate\Cache\CacheManager->__call('r  
+  ememberForever                                                               
+                                                                               
+
+[2017-10-27 14:25:48 *2322.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught ErrorException: md5_file(https://image02.worldcosplay.net/uploads/66089/reqonfbdpwixtrygymwppgjfsbhyzblsnrwkokbc-100.jpg): failed to open stream: Connection timed out in /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Chat.php:87
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'md5_file(https:...', '/data/wwwroot/l...', 87, Array)
+#1 /data/wwwroot/laravel-swoole-chat/app/Console/Commands/Cha
+[2017-10-27 14:25:48 $2320.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+client-3 is closed
+
+array(2) {
+  ["nickname"]=>
+  string(12) "CZRJJSMT-IVY"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/a4b4907f8c53fa076e024501804fda28.jpg"
+}
+[2017-10-27 14:25:48 *2335.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 80 byte failed, because connection[fd=3] is closed.
+client-4 is closed
+
+array(2) {
+  ["nickname"]=>
+  string(12) "努力吧宁"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/ca0fb9570cac233aa2c1d0d6bc62d17b.png"
+}
+[2017-10-27 14:30:33 *2335.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 92 byte failed, because connection[fd=4] is closed.
+client-5 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  NULL
+}
+生成token并且保存:user_59f2d28b913b7
+用户资料:array(2) {
+  ["nickname"]=>
+  string(15) "一只山松果"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/d62e5ce748bde072fcfe62a2176fa790.jpg"
+}
+client-6 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  NULL
+}
+生成token并且保存:user_59f2d2f483677
+用户资料:array(2) {
+  ["nickname"]=>
+  string(9) "涂涂君"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/b931f90637e5ea416cbba54899253afc.png"
+}
+client-5 is closed
+
+array(2) {
+  ["nickname"]=>
+  string(15) "一只山松果"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/d62e5ce748bde072fcfe62a2176fa790.jpg"
+}
+[2017-10-27 14:33:26 *2335.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 98 byte failed, because connection[fd=5] is closed.
+client-7 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f2d28b913b7"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(15) "一只山松果"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/d62e5ce748bde072fcfe62a2176fa790.jpg"
+}
+client-7 is closed
+
+array(2) {
+  ["nickname"]=>
+  string(8) "__嘲月"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/f5c3c6b9cff49269f7a04f408fcf427f.png"
+}
+[2017-10-27 14:34:13 *2335.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 82 byte failed, because connection[fd=7] is closed.
+client-8 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f2d28b913b7"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(15) "一只山松果"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/d62e5ce748bde072fcfe62a2176fa790.jpg"
+}
+client-8 is closed
+
+array(2) {
+  ["nickname"]=>
+  string(9) "宏电子"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/0f64c0bee732eb82bb4b67779158d63d.jpg"
+}
+[2017-10-27 14:35:20 *2335.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 86 byte failed, because connection[fd=8] is closed.
+client-9 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f2d28b913b7"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(15) "一只山松果"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/d62e5ce748bde072fcfe62a2176fa790.jpg"
+}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f2d28b913b7"
+  ["content"]=>
+  string(6) "aaaddd"
+}
+(fd:9)一只山松果:{"type":"message","token":"user_59f2d28b913b7","content":"aaaddd"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f2d28b913b7"
+  ["content"]=>
+  string(1) "z"
+}
+(fd:9)一只山松果:{"type":"message","token":"user_59f2d28b913b7","content":"z"}
+client-9 is closed
+
+array(2) {
+  ["nickname"]=>
+  string(11) "切切celia"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/a02487cc400342b3b0278d4a7d6e4c33.jpg"
+}
+[2017-10-27 14:36:40 *2335.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 85 byte failed, because connection[fd=9] is closed.
+client-10 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f2d28b913b7"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(15) "一只山松果"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/d62e5ce748bde072fcfe62a2176fa790.jpg"
+}
+client-10 is closed
+
+array(2) {
+  ["nickname"]=>
+  string(12) "陌莫_Milky"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/e5e38e84a08de3529abce2ee50ed5e71.jpg"
+}
+[2017-10-27 14:37:28 *2335.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 86 byte failed, because connection[fd=10] is closed.
+client-11 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f2d28b913b7"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(15) "一只山松果"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/d62e5ce748bde072fcfe62a2176fa790.jpg"
+}
+client-11 is closed
+
+NULL
+client-12 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f2d28b913b7"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(15) "一只山松果"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/d62e5ce748bde072fcfe62a2176fa790.jpg"
+}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f2d28b913b7"
+  ["content"]=>
+  string(0) ""
+}
+(fd:12)一只山松果:{"type":"message","token":"user_59f2d28b913b7","content":""}
+client-12 is closed
+
+array(2) {
+  ["nickname"]=>
+  string(6) "瀅逖"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/9148f7ecaa8e836ab8e05048e2022577.png"
+}
+[2017-10-27 14:40:03 *2335.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 80 byte failed, because connection[fd=12] is closed.
+client-13 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f2d28b913b7"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(15) "一只山松果"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/d62e5ce748bde072fcfe62a2176fa790.jpg"
+}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f2d28b913b7"
+  ["content"]=>
+  string(0) ""
+}
+(fd:13)一只山松果:{"type":"message","token":"user_59f2d28b913b7","content":""}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f2d28b913b7"
+  ["content"]=>
+  string(0) ""
+}
+(fd:13)一只山松果:{"type":"message","token":"user_59f2d28b913b7","content":""}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f2d28b913b7"
+  ["content"]=>
+  string(0) ""
+}
+(fd:13)一只山松果:{"type":"message","token":"user_59f2d28b913b7","content":""}
+client-13 is closed
+
+array(2) {
+  ["nickname"]=>
+  string(11) "帅比av酱"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/e4b80b85dd3e8d390168d86fa5d84bac.jpg"
+}
+[2017-10-27 14:41:22 *2335.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 88 byte failed, because connection[fd=13] is closed.
+client-14 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f2d28b913b7"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(15) "一只山松果"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/d62e5ce748bde072fcfe62a2176fa790.jpg"
+}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f2d28b913b7"
+  ["content"]=>
+  string(0) ""
+}
+(fd:14)一只山松果:{"type":"message","token":"user_59f2d28b913b7","content":""}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f2d28b913b7"
+  ["content"]=>
+  string(0) ""
+}
+(fd:14)一只山松果:{"type":"message","token":"user_59f2d28b913b7","content":""}
+client-14 is closed
+
+NULL
+client-15 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f2d28b913b7"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(15) "一只山松果"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/d62e5ce748bde072fcfe62a2176fa790.jpg"
+}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f2d28b913b7"
+  ["content"]=>
+  string(2) "zz"
+}
+(fd:15)一只山松果:{"type":"message","token":"user_59f2d28b913b7","content":"zz"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f2d28b913b7"
+  ["content"]=>
+  string(7) "zzsdfsd"
+}
+(fd:15)一只山松果:{"type":"message","token":"user_59f2d28b913b7","content":"zzsdfsd"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f2d28b913b7"
+  ["content"]=>
+  string(7) "zzsdfsd"
+}
+(fd:15)一只山松果:{"type":"message","token":"user_59f2d28b913b7","content":"zzsdfsd"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f2d28b913b7"
+  ["content"]=>
+  string(7) "zzsdfsd"
+}
+(fd:15)一只山松果:{"type":"message","token":"user_59f2d28b913b7","content":"zzsdfsd"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f2d28b913b7"
+  ["content"]=>
+  string(7) "zzsdfsd"
+}
+(fd:15)一只山松果:{"type":"message","token":"user_59f2d28b913b7","content":"zzsdfsd"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f2d28b913b7"
+  ["content"]=>
+  string(7) "zzsdfsd"
+}
+(fd:15)一只山松果:{"type":"message","token":"user_59f2d28b913b7","content":"zzsdfsd"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f2d28b913b7"
+  ["content"]=>
+  string(7) "zzsdfsd"
+}
+(fd:15)一只山松果:{"type":"message","token":"user_59f2d28b913b7","content":"zzsdfsd"}
+client-15 is closed
+
+array(2) {
+  ["nickname"]=>
+  string(12) "兔眠神_Mz"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/324ac3c951dccb31f3af6735f866911c.jpg"
+}
+[2017-10-27 14:43:44 *2335.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 89 byte failed, because connection[fd=15] is closed.
+client-16 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f2d28b913b7"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(15) "一只山松果"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/d62e5ce748bde072fcfe62a2176fa790.jpg"
+}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f2d28b913b7"
+  ["content"]=>
+  string(2) "zz"
+}
+(fd:16)一只山松果:{"type":"message","token":"user_59f2d28b913b7","content":"zz"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f2d28b913b7"
+  ["content"]=>
+  string(7) "fasdfsa"
+}
+(fd:16)一只山松果:{"type":"message","token":"user_59f2d28b913b7","content":"fasdfsa"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f2d28b913b7"
+  ["content"]=>
+  string(3) "sdf"
+}
+(fd:16)一只山松果:{"type":"message","token":"user_59f2d28b913b7","content":"sdf"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f2d28b913b7"
+  ["content"]=>
+  string(8) "zdasfasd"
+}
+(fd:16)一只山松果:{"type":"message","token":"user_59f2d28b913b7","content":"zdasfasd"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f2d28b913b7"
+  ["content"]=>
+  string(6) "asdasd"
+}
+(fd:16)一只山松果:{"type":"message","token":"user_59f2d28b913b7","content":"asdasd"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f2d28b913b7"
+  ["content"]=>
+  string(6) "asdasd"
+}
+(fd:16)一只山松果:{"type":"message","token":"user_59f2d28b913b7","content":"asdasd"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f2d28b913b7"
+  ["content"]=>
+  string(8) "asdasdas"
+}
+(fd:16)一只山松果:{"type":"message","token":"user_59f2d28b913b7","content":"asdasdas"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f2d28b913b7"
+  ["content"]=>
+  string(4) "dsad"
+}
+(fd:16)一只山松果:{"type":"message","token":"user_59f2d28b913b7","content":"dsad"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f2d28b913b7"
+  ["content"]=>
+  string(3) "asd"
+}
+(fd:16)一只山松果:{"type":"message","token":"user_59f2d28b913b7","content":"asd"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f2d28b913b7"
+  ["content"]=>
+  string(3) "asd"
+}
+(fd:16)一只山松果:{"type":"message","token":"user_59f2d28b913b7","content":"asd"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f2d28b913b7"
+  ["content"]=>
+  string(2) "as"
+}
+(fd:16)一只山松果:{"type":"message","token":"user_59f2d28b913b7","content":"as"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f2d28b913b7"
+  ["content"]=>
+  string(1) "d"
+}
+(fd:16)一只山松果:{"type":"message","token":"user_59f2d28b913b7","content":"d"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f2d28b913b7"
+  ["content"]=>
+  string(5) "asdas"
+}
+(fd:16)一只山松果:{"type":"message","token":"user_59f2d28b913b7","content":"asdas"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f2d28b913b7"
+  ["content"]=>
+  string(3) "das"
+}
+(fd:16)一只山松果:{"type":"message","token":"user_59f2d28b913b7","content":"das"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f2d28b913b7"
+  ["content"]=>
+  string(3) "das"
+}
+(fd:16)一只山松果:{"type":"message","token":"user_59f2d28b913b7","content":"das"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f2d28b913b7"
+  ["content"]=>
+  string(3) "das"
+}
+(fd:16)一只山松果:{"type":"message","token":"user_59f2d28b913b7","content":"das"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f2d28b913b7"
+  ["content"]=>
+  string(3) "das"
+}
+(fd:16)一只山松果:{"type":"message","token":"user_59f2d28b913b7","content":"das"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f2d28b913b7"
+  ["content"]=>
+  string(1) "d"
+}
+(fd:16)一只山松果:{"type":"message","token":"user_59f2d28b913b7","content":"d"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f2d28b913b7"
+  ["content"]=>
+  string(3) "asd"
+}
+(fd:16)一只山松果:{"type":"message","token":"user_59f2d28b913b7","content":"asd"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f2d28b913b7"
+  ["content"]=>
+  string(2) "as"
+}
+(fd:16)一只山松果:{"type":"message","token":"user_59f2d28b913b7","content":"as"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f2d28b913b7"
+  ["content"]=>
+  string(3) "das"
+}
+(fd:16)一只山松果:{"type":"message","token":"user_59f2d28b913b7","content":"das"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f2d28b913b7"
+  ["content"]=>
+  string(6) "dsadas"
+}
+(fd:16)一只山松果:{"type":"message","token":"user_59f2d28b913b7","content":"dsadas"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f2d28b913b7"
+  ["content"]=>
+  string(3) "das"
+}
+(fd:16)一只山松果:{"type":"message","token":"user_59f2d28b913b7","content":"das"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f2d28b913b7"
+  ["content"]=>
+  string(3) "das"
+}
+(fd:16)一只山松果:{"type":"message","token":"user_59f2d28b913b7","content":"das"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f2d28b913b7"
+  ["content"]=>
+  string(1) "d"
+}
+(fd:16)一只山松果:{"type":"message","token":"user_59f2d28b913b7","content":"d"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f2d28b913b7"
+  ["content"]=>
+  string(2) "sa"
+}
+(fd:16)一只山松果:{"type":"message","token":"user_59f2d28b913b7","content":"sa"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f2d28b913b7"
+  ["content"]=>
+  string(3) "das"
+}
+(fd:16)一只山松果:{"type":"message","token":"user_59f2d28b913b7","content":"das"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f2d28b913b7"
+  ["content"]=>
+  string(1) "d"
+}
+(fd:16)一只山松果:{"type":"message","token":"user_59f2d28b913b7","content":"d"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f2d28b913b7"
+  ["content"]=>
+  string(2) "as"
+}
+(fd:16)一只山松果:{"type":"message","token":"user_59f2d28b913b7","content":"as"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f2d28b913b7"
+  ["content"]=>
+  string(1) "d"
+}
+(fd:16)一只山松果:{"type":"message","token":"user_59f2d28b913b7","content":"d"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f2d28b913b7"
+  ["content"]=>
+  string(2) "as"
+}
+(fd:16)一只山松果:{"type":"message","token":"user_59f2d28b913b7","content":"as"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f2d28b913b7"
+  ["content"]=>
+  string(1) "d"
+}
+(fd:16)一只山松果:{"type":"message","token":"user_59f2d28b913b7","content":"d"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f2d28b913b7"
+  ["content"]=>
+  string(2) "as"
+}
+(fd:16)一只山松果:{"type":"message","token":"user_59f2d28b913b7","content":"as"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f2d28b913b7"
+  ["content"]=>
+  string(3) "das"
+}
+(fd:16)一只山松果:{"type":"message","token":"user_59f2d28b913b7","content":"das"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f2d28b913b7"
+  ["content"]=>
+  string(1) "d"
+}
+(fd:16)一只山松果:{"type":"message","token":"user_59f2d28b913b7","content":"d"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f2d28b913b7"
+  ["content"]=>
+  string(2) "as"
+}
+(fd:16)一只山松果:{"type":"message","token":"user_59f2d28b913b7","content":"as"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f2d28b913b7"
+  ["content"]=>
+  string(3) "dsa"
+}
+(fd:16)一只山松果:{"type":"message","token":"user_59f2d28b913b7","content":"dsa"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f2d28b913b7"
+  ["content"]=>
+  string(2) "da"
+}
+(fd:16)一只山松果:{"type":"message","token":"user_59f2d28b913b7","content":"da"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f2d28b913b7"
+  ["content"]=>
+  string(2) "da"
+}
+(fd:16)一只山松果:{"type":"message","token":"user_59f2d28b913b7","content":"da"}
+client-16 is closed
+
+array(2) {
+  ["nickname"]=>
+  string(6) "姽风"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/9abf7d69a8c5f67692d25ed1c6a553a0.jpg"
+}
+[2017-10-27 14:44:11 *2335.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 80 byte failed, because connection[fd=16] is closed.
+client-17 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f2d28b913b7"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(15) "一只山松果"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/d62e5ce748bde072fcfe62a2176fa790.jpg"
+}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f2d28b913b7"
+  ["content"]=>
+  string(3) "☀"
+}
+(fd:17)一只山松果:{"type":"message","token":"user_59f2d28b913b7","content":"☀"}
+data
+array(3) {
+  ["type"]=>
+  string(7) "message"
+  ["token"]=>
+  string(18) "user_59f2d28b913b7"
+  ["content"]=>
+  string(6) "U+E63E"
+}
+(fd:17)一只山松果:{"type":"message","token":"user_59f2d28b913b7","content":"U+E63E"}
+client-17 is closed
+
+array(2) {
+  ["nickname"]=>
+  string(6) "jjhsxv"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/3f54343a18ff636e58a91e8dd73b7764.png"
+}
+[2017-10-27 14:47:40 *2335.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 74 byte failed, because connection[fd=17] is closed.
+client-18 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f2d28b913b7"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(15) "一只山松果"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/d62e5ce748bde072fcfe62a2176fa790.jpg"
+}
+client-18 is closed
+
+array(2) {
+  ["nickname"]=>
+  string(11) "_秦朝歌_"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/b1aee5d44205e9c6989a9f3dfc32dfaa.jpg"
+}
+[2017-10-27 14:47:51 *2335.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 88 byte failed, because connection[fd=18] is closed.
+client-19 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f2d28b913b7"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(15) "一只山松果"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/d62e5ce748bde072fcfe62a2176fa790.jpg"
+}
+client-6 is closed
+
+array(2) {
+  ["nickname"]=>
+  string(9) "涂涂君"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/b931f90637e5ea416cbba54899253afc.png"
+}
+[2017-10-27 14:56:21 *2335.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 86 byte failed, because connection[fd=6] is closed.
+client-20 is connected
+
+client-19 is closed
+
+array(2) {
+  ["nickname"]=>
+  string(10) "心缘2333"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/bb3cb23d1111c5671a9f00405471cbc9.jpg"
+}
+[2017-10-27 15:01:01 *2335.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 84 byte failed, because connection[fd=19] is closed.
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f2d28b913b7"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(15) "一只山松果"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/d62e5ce748bde072fcfe62a2176fa790.jpg"
+}
+client-20 is closed
+
+NULL
+client-21 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f2d28b913b7"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(15) "一只山松果"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/d62e5ce748bde072fcfe62a2176fa790.jpg"
+}
+client-21 is closed
+
+NULL
+client-22 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f2d28b913b7"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(15) "一只山松果"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/d62e5ce748bde072fcfe62a2176fa790.jpg"
+}
+client-22 is closed
+
+array(2) {
+  ["nickname"]=>
+  string(2) "NG"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/7ddc9285096f12e33f0868ec78cbff83.jpg"
+}
+[2017-10-27 15:03:43 *2335.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 70 byte failed, because connection[fd=22] is closed.
+client-23 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f2d28b913b7"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(15) "一只山松果"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/d62e5ce748bde072fcfe62a2176fa790.jpg"
+}
+client-23 is closed
+
+array(2) {
+  ["nickname"]=>
+  string(15) "蜜糖果果www"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/ce3718fa249200e715a3551165731a0f.png"
+}
+[2017-10-27 15:04:26 *2335.0]	NOTICE	swFactoryProcess_finish (ERROR 1004): send 95 byte failed, because connection[fd=23] is closed.
+client-24 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f2d28b913b7"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(15) "一只山松果"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/d62e5ce748bde072fcfe62a2176fa790.jpg"
+}
+client-24 is closed
+
+NULL
+client-25 is connected
+
+data
+array(2) {
+  ["type"]=>
+  string(10) "send_token"
+  ["token"]=>
+  string(18) "user_59f2d28b913b7"
+}
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(15) "一只山松果"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/d62e5ce748bde072fcfe62a2176fa790.jpg"
+}
+[2017-10-27 17:48:40 @2986.0]	WARNING	swSocket_bind (ERROR 502): bind(0.0.0.0:9502) failed. Error: Address already in use [98]
+
+                                                                               
+  [swoole_exception]                                                           
+  failed to listen server port[0.0.0.0:9502]. Error: Address already in use[9  
+  8].                                                                          
+                                                                               
+
+server starting at 9502 port...
+client-1 is connected
+
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(8) "38575517"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/6a616b8ce53fb09a43d8a48825c29933.png"
+}
+client-2 is connected
+
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(8) "38575517"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/6a616b8ce53fb09a43d8a48825c29933.png"
+}
+client-1 is closed
+
+NULL
+client-3 is connected
+
+userInfo
+array(2) {
+  ["nickname"]=>
+  string(8) "38575517"
+  ["avatar"]=>
+  string(69) "http://chat.51godream.com/avatar/6a616b8ce53fb09a43d8a48825c29933.png"
+}
+(fd:3)38575517:{"type":"message","token":"user_59f2f960950ac","content":"z"}
